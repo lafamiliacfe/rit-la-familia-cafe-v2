@@ -25,18 +25,42 @@
         }
         
         /* Estilos para títulos y subtítulos en negrilla */
+        /* Estilos para títulos y subtítulos en negrilla (Unificado) */
         h1, h2, h3, h4, h5, h6 {
             font-weight: bold;
-            color: #2c3e50; /* Un color oscuro para destacar */
-            margin-top: 1.5em;
+            color: #2c3e50; /* Color principal para títulos */
+            margin-top: 2em;
             margin-bottom: 0.5em;
+            padding-bottom: 5px;
         }
         
-        /* Estilo para los artículos (Simplificado) */
+        /* Estilo específico para Capítulos (h2) */
+        h2 {
+            border-bottom: 2px solid #3498db; /* Línea azul para Capítulos */
+            font-size: 1.8em;
+        }
+        
+        /* Estilo específico para Artículos (h4) */
         h4 {
-            margin-top: 2em;
-            padding-bottom: 5px;
-            border-bottom: 1px solid #ccc;
+            border-bottom: 1px solid #ccc; /* Línea más sutil para Artículos */
+            font-size: 1.1em;
+            margin-top: 1.5em;
+        }
+        
+        /* Estilo para el contenido de los artículos */
+        .articulo-content p {
+            margin-bottom: 1em;
+            padding-left: 10px;
+        }
+        
+        /* Estilo para listas */
+        ul {
+            list-style: disc;
+            margin-left: 20px;
+            padding-left: 0;
+        }
+        li {
+            margin-bottom: 0.5em;
         }
         
         /* -------------------------------------------------------------------
