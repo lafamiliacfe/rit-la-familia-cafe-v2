@@ -1,0 +1,1070 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RIT La Familia Cafe - Reglamento Interno de Trabajo</title>
+    <style>
+        /* -------------------------------------------------------------------
+           1. Estilos Generales y Responsivos
+           ------------------------------------------------------------------- */
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            /* Estructura simplificada */
+        }
+        
+        /* Estilos para títulos y subtítulos en negrilla */
+        h1, h2, h3, h4, h5, h6 {
+            font-weight: bold;
+            color: #2c3e50; /* Un color oscuro para destacar */
+            margin-top: 1.5em;
+            margin-bottom: 0.5em;
+        }
+        
+        /* Estilo para los artículos (Simplificado) */
+        h4 {
+            margin-top: 2em;
+            padding-bottom: 5px;
+            border-bottom: 1px solid #ccc;
+        }
+        
+        /* -------------------------------------------------------------------
+           2. Estilos para el Índice (Tabla de Contenido)
+           ------------------------------------------------------------------- */
+        .indice {
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin-bottom: 30px;
+            background-color: #ecf0f1;
+        }
+        .indice h2 {
+            margin-top: 0;
+            color: #3498db;
+        }
+        .indice ul {
+            list-style: none;
+            padding: 0;
+        }
+        .indice li {
+            margin-bottom: 5px;
+        }
+        .indice a {
+            text-decoration: none;
+            color: #2980b9;
+        }
+        .indice a:hover {
+            text-decoration: underline;
+        }
+
+        /* -------------------------------------------------------------------
+           3. Estilos para la Ventana Emergente (Modal)
+           ------------------------------------------------------------------- */
+        .modal-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.8);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+        }
+        .modal-content {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            max-width: 500px;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        }
+        .modal-content h3 {
+            color: #e74c3c;
+        }
+        .modal-button {
+            background-color: #2ecc71;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin-top: 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .modal-button:hover {
+            background-color: #27ae60;
+        }
+
+        /* -------------------------------------------------------------------
+           4. Estilos para Deshabilitar Selección y Copia (Requisito 1)
+           ------------------------------------------------------------------- */
+        .no-copy {
+            -webkit-user-select: none;  /* Safari */
+            -moz-user-select: none;     /* Firefox */
+            -ms-user-select: none;      /* IE 10+ */
+            user-select: none;          /* Standard syntax */
+        }
+    </style>
+</head>
+<body class="no-copy">
+
+    <!-- Ventana Emergente (Modal) -->
+    <div id="disclaimer-modal" class="modal-overlay">
+        <div class="modal-content">
+            <h3>AVISO DE CONFIDENCIALIDAD</h3>
+            <p>El presente reglamento interno, pertenece a <strong>LA FAMILIA CAFÉ SAS</strong>, por tanto su conocimiento es solo para personal que hace parte de la empresa y de las partes interesadas o reguladoras en la materia. Su distribución parcial o total está completamente prohibida y quien incumpla estas disposiciones se expone a posibles procesos legales.</p>
+            <button class="modal-button" onclick="cerrarModal()">Comprendido</button>
+        </div>
+    </div>
+
+    <div class="container" id="contenido-principal" style="display: none;">
+        <h1>REGLAMENTO INTERNO DE TRABAJO</h1>
+        <h2>RIT La Familia Cafe</h2>
+
+        <!-- Índice por Capítulos -->
+        <div class="indice">
+            <h2>Índice</h2>
+            <ul>
+                <li><a href="#capitulo-1">Capítulo I: </a></li><li><a href="#capitulo-2">Capítulo III: </a></li><li><a href="#capitulo-3">Capítulo IV: </a></li><li><a href="#capitulo-4">Capítulo V: </a></li><li><a href="#capitulo-5">Capítulo VI: </a></li><li><a href="#capitulo-6">Capítulo VII: </a></li><li><a href="#capitulo-7">Capítulo IX: </a></li><li><a href="#capitulo-8">Capítulo X: </a></li><li><a href="#capitulo-9">Capítulo XI: </a></li><li><a href="#capitulo-10">Capítulo XII: </a></li><li><a href="#capitulo-11">Capítulo XIII: </a></li><li><a href="#capitulo-12">Capítulo XIV: </a></li><li><a href="#capitulo-13">Capítulo XV: </a></li><li><a href="#capitulo-14">Capítulo XVI: </a></li><li><a href="#capitulo-15">Capítulo XVI: </a></li><li><a href="#capitulo-16">Capítulo XVII: </a></li>
+            </ul>
+        </div>
+
+        <!-- Contenido del Reglamento -->
+        <section id="capitulo-1" style="padding-top: 20px; border-top: 1px solid #ccc;"><h2>Capítulo I: </h2><p>IDENTIFICACIÓN Y CONTEXTO DE LA EMPRESA</p>
+</div><h4 id="articulo-1">Artículo 1. °. Identificación de la empresa</h4>
+<div class="articulo-content"><p>En LA FAMILIA CAFE S.A.S, identificada con NIT 9015237611-1, nos constituimos como una sociedad por acciones simplificada (S.A.S.) de carácter privado, domiciliada en la ciudad de Cali, departamento del Valle del Cauca, República de Colombia.</p>
+</div><p>Nuestra sede administrativa principal está ubicada en la dirección Carrera 112 N.º 44–21, Apto 817, Edificio Palmeras de La Bocha, Cali – Valle del Cauca, Colombia, y contamos como canal de contacto institucional con el correo electrónico lafamiliacafecolombiano21@gmail.com y el número de teléfono 317 644 42 99.</p>
+</div><h4 id="articulo-2">Artículo 2. °. Actividad económica y objeto empresarial</h4>
+<div class="articulo-content"><p>En LA FAMILIA CAFE S.A.S desarrollamos principalmente actividades de comercio al por mayor de productos agrícolas, con énfasis en la compra de café a mayoristas en el territorio nacional y la coordinación de su exportación hacia mercados internacionales.</p>
+</div><p>Desde nuestra sede en Cali gestionamos la logística comercial, documental y operativa necesaria para que el café llegue a los puertos marítimos y sea embarcado en buques con destino al exterior, sin que la empresa cuente con bodegas propias ni realice procesos de transformación industrial del producto.</p>
+</div><h4 id="articulo-3">Artículo 3. °. Tamaño de la empresa y aplicación normativa según número de trabajadores</h4>
+<div class="articulo-content"><p>En LA FAMILIA CAFE S.A.S actualmente contamos con menos de diez (10) trabajadores vinculados mediante contrato de trabajo. Por esta razón, en aquellos aspectos en los que la legislación laboral, de seguridad social y de seguridad y salud en el trabajo establece tratamientos diferenciados según el número de trabajadores, aplicamos lo previsto para empresas de menos de diez (10) trabajadores.</p>
+</div><p>Sin embargo, dejamos expresamente establecido que, en el momento en que LA FAMILIA CAFE S.A.S supere el número de diez (10) trabajadores, este Reglamento Interno se entenderá automáticamente ajustado para dar cumplimiento a todas las obligaciones legales exigibles a las empresas de diez (10) o más trabajadores, particularmente en lo relacionado con:</p>
+</div><ul><li>Conformación y funcionamiento de comités y organismos bipartitos (por ejemplo, Comité Paritario de Seguridad y Salud en el Trabajo – COPASST y Comité de Convivencia Laboral).</li><ul><li>Implementación y nivel de exigencia de los estándares mínimos del Sistema de Gestión de Seguridad y Salud en el Trabajo.</li><ul><li>Cualquier otra obligación que la normatividad colombiana vigente asocie al número de trabajadores.</li><p>Lo anterior se entiende sin perjuicio de que LA FAMILIA CAFE S.A.S realice las actualizaciones formales y editoriales que correspondan a este Reglamento Interno de Trabajo, con el fin de mantenerlo permanentemente alineado con la normatividad laboral, de seguridad social y de seguridad y salud en el trabajo vigente en Colombia.</p>
+</div></section><section id="capitulo-2" style="padding-top: 20px; border-top: 1px solid #ccc;"><h2>Capítulo III: </h2><p>CONDICIONES DE ADMISIÓN, PERÍODO DE PRUEBA Y CONTRATO DE APRENDIZAJE</p>
+</div><h4 id="articulo-4">Artículo 4. Condiciones de admisión y documentación requerida</h4>
+<div class="articulo-content"><p>En LA FAMILIA CAFE S.A.S las personas que aspiren a vincularse a nuestra empresa deben participar en el proceso de selección que definamos para cada cargo y cumplir los requisitos del perfil establecido. Como parte de este proceso, solicitamos el diligenciamiento completo de la hoja de vida institucional y la entrega de la documentación que a continuación se relaciona, en armonía con lo previsto en el Código Sustantivo del Trabajo y la Ley 1581 de 2012 sobre protección de datos personales:</p>
+</div><p>1.	Hoja de vida debidamente diligenciada, con información veraz, completa y actualizada.</p>
+</div><p>2.	Soportes de formación académica y técnica, tales como certificados de estudio, actas de grado, títulos o constancias expedidas por las instituciones educativas correspondientes, cuando aplique, preferiblemente con las autenticaciones que exijan las normas vigentes o los clientes internacionales con los que trabajemos.</p>
+</div><p>3.	Documento de identidad vigente (cédula de ciudadanía, cédula de extranjería o documento de identificación válido según la normatividad migratoria aplicable).</p>
+</div><p>4.	Cuando el cargo implique la gestión de procesos logísticos, trámites aduaneros, coordinación de transporte o relación con autoridades portuarias, se podrá solicitar la acreditación de cursos, certificaciones o entrenamientos específicos que exijan nuestros clientes, las normas del comercio exterior o las autoridades competentes.</p>
+</div><p>5.	Cuando el cargo corresponda a una profesión regulada, exigiremos la tarjeta profesional o el documento que acredite la autorización legal para ejercer.</p>
+</div><p>6.	Para las personas con experiencia laboral previa, solicitamos como mínimo la certificación del último empleador, indicando el cargo desempeñado, el tiempo de servicio y, cuando sea posible, un concepto general sobre su desempeño.</p>
+</div><p>7.	Podremos solicitar certificados laborales adicionales cuando el perfil del cargo o los requerimientos de nuestros clientes lo justifiquen.</p>
+</div><p>8.	Como medida de seguridad y transparencia, podremos solicitar certificados de antecedentes vigentes expedidos por las autoridades competentes (por ejemplo, Contraloría, Procuraduría, Policía Nacional, Registro Nacional de Medidas Correctivas, Registro de Deudores Alimentarios Morosos – REDAM, Fiscalía u otras que la ley autorice), siempre respetando la normatividad de protección de datos personales y el principio de no discriminación.</p>
+</div><h4 id="articulo-5">Artículo 5. Evaluaciones médicas ocupacionales y pruebas clínicas</h4>
+<div class="articulo-content"><p>En LA FAMILIA CAFE S.A.S entendemos que la evaluación de la aptitud médica para el trabajo hace parte de la gestión de seguridad y salud en el trabajo. Por ello:</p>
+</div><p>1.	Podremos exigir la realización de evaluaciones médicas ocupacionales de ingreso, periódicas y de retiro, de acuerdo con las normas vigentes en materia de seguridad y salud en el trabajo y con nuestro Sistema de Gestión de SST.</p>
+</div><p>2.	Estas evaluaciones únicamente serán realizadas por servicios de salud y profesionales autorizados, en el marco de programas de vigilancia de la salud ocupacional debidamente estructurados.</p>
+</div><p>3.	Cualquier prueba clínica, incluyendo pruebas de consumo de alcohol o sustancias psicoactivas con fines ocupacionales, se realizará exclusivamente a través de los servicios de salud ocupacional y bajo los criterios técnicos y éticos aplicables, respetando la dignidad, intimidad y el consentimiento informado de la persona trabajadora.</p>
+</div><p>4.	LA FAMILIA CAFE S.A.S se compromete a manejar los resultados de estas evaluaciones con estricta confidencialidad, y únicamente utilizará la información de salud para fines relacionados con la protección de la integridad de las personas, la seguridad de las operaciones y el cumplimiento de las normas legales y contractuales.</p>
+</div><p>La negativa injustificada a someterse a las evaluaciones médicas exigidas por la ley o por nuestro Sistema de Gestión de SST podrá ser considerada dentro de la valoración de ingreso o permanencia, garantizando siempre el debido proceso y el respeto por los derechos fundamentales.</p>
+</div><h4 id="articulo-6">Artículo 6. Verificación de la información y de los documentos aportados</h4>
+<div class="articulo-content"><p>En LA FAMILIA CAFE S.A.S nos reservamos el derecho de verificar la autenticidad y veracidad de toda la información y documentación aportada por las personas aspirantes o vinculadas, utilizando los medios que la ley permite (consultas en entidades emisoras, llamadas a anteriores empleadores, verificación de títulos, sistemas en línea, entre otros).</p>
+</div><p>Si durante el proceso de admisión o con posterioridad a la vinculación laboral identificamos que una persona:</p>
+</div><ul><li>Ha suministrado información falsa o inexacta, o</li><ul><li>Ha presentado documentos adulterados, falsificados o que no corresponden a la realidad,</li><p>podremos rechazar su vinculación o dar por terminado el contrato de trabajo por justa causa, conforme a la ley y con respeto pleno del debido proceso disciplinario.</p>
+</div><p>________________________________________</p>
+</div><h4 id="articulo-7">Artículo 7. Trabajadores migrantes</h4>
+<div class="articulo-content"><p>En LA FAMILIA CAFE S.A.S podemos vincular personas trabajadoras migrantes en estricto cumplimiento de la legislación laboral y migratoria colombiana, incluyendo, entre otras, las disposiciones de la reforma laboral vigente, la normativa sobre migración y retorno de colombianos, los tratados internacionales aplicables y las reglas de regularización migratoria.</p>
+</div><p>Las personas trabajadoras migrantes que se vinculen a nuestra empresa:</p>
+</div><p>1.	Gozan de los mismos derechos y garantías que las personas trabajadoras nacionales, sin ningún tipo de discriminación por razón de su nacionalidad, origen, situación migratoria regular, idioma, cultura, religión o cualquier otra circunstancia similar.</p>
+</div><p>2.	Están sujetas a los mismos deberes, obligaciones y estándares de desempeño que aplican para cualquier trabajador de LA FAMILIA CAFE S.A.S, de acuerdo con su contrato de trabajo y este reglamento.</p>
+</div><p>3.	Serán afiliadas al Sistema de Seguridad Social Integral (salud, pensiones y riesgos laborales) y a los aportes parafiscales que correspondan, en los términos de la ley.</p>
+</div><p>Como garantía adicional, procuramos que las personas trabajadoras migrantes reciban información clara y comprensible sobre sus derechos, sus obligaciones y nuestros procedimientos internos, procurando el uso de un lenguaje y, cuando sea posible, un idioma que puedan comprender adecuadamente.</p>
+</div><p>________________________________________</p>
+</div><h3>Sección 2: PERÍODO DE PRUEBA</h3><h4 id="articulo-8">Artículo 8. Naturaleza y finalidad del período de prueba</h4>
+<div class="articulo-content"><p>En LA FAMILIA CAFE S.A.S, una vez se suscribe el contrato de trabajo, podremos pactar un período de prueba con el fin de que:</p>
+</div><p>1.	La empresa pueda apreciar las aptitudes, competencias, habilidades, integridad y adaptación de la persona al cargo, al equipo y a la cultura organizacional.</p>
+</div><p>2.	La persona trabajadora evalúe las condiciones de trabajo, el ambiente laboral, las funciones asignadas y las oportunidades de desarrollo que ofrece nuestra empresa.</p>
+</div><p>El período de prueba constituye una etapa de evaluación recíproca, que se rige por las normas del Código Sustantivo del Trabajo y por las disposiciones de la reforma laboral vigente.</p>
+</div><h4 id="articulo-9">Artículo 9. Estipulación escrita del período de prueba</h4>
+<div class="articulo-content"><p>El período de prueba debe ser pactado de forma expresa y por escrito en el contrato de trabajo, indicando su duración y la fecha de inicio.</p>
+</div><p>Si en el contrato no se menciona el período de prueba, se entenderá que las partes renunciaron a esta etapa, por lo cual el vínculo laboral se considerará plenamente vigente desde el primer día.</p>
+</div><p>En LA FAMILIA CAFE S.A.S procuramos que, durante la negociación del contrato, tanto la empresa como la persona trabajadora tengan absoluta claridad sobre:</p>
+</div><ul><li>Si existirá o no período de prueba,</li><ul><li>Cuál será su duración, y</li><ul><li>Cuáles son las expectativas de evaluación durante ese tiempo.</li><h4 id="articulo-10">Artículo 10. Duración máxima del período de prueba</h4>
+<div class="articulo-content"><p>El período de prueba que pactemos en LA FAMILIA CAFE S.A.S no podrá exceder los límites establecidos por la ley, entre ellos:</p>
+</div><p>1.	Hasta dos (2) meses para los contratos a término indefinido.</p>
+</div><p>2.	Hasta una quinta parte del término inicialmente pactado para los contratos a término fijo inferiores a un (1) año.</p>
+</div><p>3.	Hasta dos (2) meses para los contratos a término fijo iguales o superiores a un (1) año.</p>
+</div><p>Cuando entre LA FAMILIA CAFE S.A.S y una misma persona se celebren contratos sucesivos, renovaciones o prórrogas del contrato inicial, no será válido pactar un nuevo período de prueba, ya que ambas partes tuvieron la oportunidad de conocerse y evaluarse en el primer vínculo.</p>
+</div><h4 id="articulo-11">Artículo 11. Terminación del contrato durante el período de prueba</h4>
+<div class="articulo-content"><p>Durante el período de prueba, cualquiera de las partes puede dar por terminado el contrato de trabajo de manera unilateral, sin necesidad de previo aviso y sin que ello genere el pago de indemnización por despido sin justa causa, sin perjuicio de las obligaciones legales de liquidación que correspondan por el tiempo efectivamente laborado.</p>
+</div><p>No obstante, en LA FAMILIA CAFE S.A.S entendemos que esta facultad no puede utilizarse con fines discriminatorios, ni para vulnerar derechos fundamentales. Por ello, evitaremos toda decisión basada en motivos de:</p>
+</div><ul><li>Sexo, género, orientación sexual, identidad de género.</li><ul><li>Raza, origen étnico o nacional.</li><ul><li>Edad, discapacidad, estado de salud, embarazo o condición de gestación.</li><ul><li>Religión, opinión política o cualquier otro criterio prohibido.</li><p>Toda decisión de terminación durante el periodo de prueba deberá responder a razones objetivas vinculadas al desempeño, la adaptación al cargo o a la organización, la confiabilidad o la conveniencia real de la relación laboral.</p>
+</div><h4 id="articulo-12">Artículo 12. Derechos del trabajador durante el período de prueba y preaviso de renuncia</h4>
+<div class="articulo-content"><p>Durante el período de prueba, las personas trabajadoras de LA FAMILIA CAFE S.A.S tienen derecho a:</p>
+</div><p>1.	Recibir el salario completo pactado en el contrato de trabajo.</p>
+</div><p>2.	Ser afiliadas desde el primer día y durante toda la vigencia del vínculo al Sistema de Seguridad Social Integral (salud, pensiones y riesgos laborales) y a las demás prestaciones que determine la ley.</p>
+</div><p>3.	Disfrutar del reconocimiento y pago proporcional de las prestaciones sociales y demás conceptos laborales a los que haya lugar, de acuerdo con el salario y el tiempo efectivamente laborado.</p>
+</div><p>El período de prueba no disminuye ni limita los derechos laborales de la persona trabajadora; simplemente define un lapso especial de evaluación recíproca.</p>
+</div><p>En cuanto a la renuncia voluntaria, en armonía con la reforma laboral vigente, en LA FAMILIA CAFE S.A.S recordamos que, la persona trabajadora debe comunicar su decisión de terminar el contrato con un preaviso de treinta (30) días calendario, con el fin de facilitar la organización del relevo y la continuidad de las operaciones.</p>
+</div><p>El no otorgamiento de este preaviso no dará lugar a sanciones disciplinarias ni a penalidades económicas adicionales, sin perjuicio de las responsabilidades que, en casos excepcionales, puedan derivarse de conductas dolosas o abusos del derecho evaluadas por las autoridades competentes.</p>
+</div><p>________________________________________</p>
+</div><h3>Sección 3: CONTRATO DE APRENDIZAJE</h3><h4 id="articulo-12">Artículo 12. Naturaleza del contrato de aprendizaje en LA FAMILIA CAFE S.A.S</h4>
+<div class="articulo-content"><p>En LA FAMILIA CAFE S.A.S podemos vincular aprendices mediante contrato de aprendizaje, entendido como una relación laboral especial a término fijo orientada principalmente a la formación teórico–práctica de la persona, de conformidad con lo previsto en el Código Sustantivo del Trabajo, la Ley 789 de 2002, la Ley 2466 de 2025, el Decreto 1072 de 2015 y demás normas que regulen el Sistema Nacional de Aprendizaje.</p>
+</div><p>Mediante esta modalidad:</p>
+</div><p>1.	La persona aprendiz desarrolla un proceso de formación teórica y práctica en una entidad de formación reconocida por el Estado.</p>
+</div><p>2.	LA FAMILIA CAFE S.A.S, como empresa patrocinadora, proporciona los medios técnicos, tecnológicos, administrativos y formativos necesarios para que dicha formación se integre con las actividades reales de la empresa, en especial con procesos administrativos, comerciales y logísticos asociados a la compra y exportación de café.</p>
+</div><h4 id="articulo-13">Artículo 13. Elementos particulares del contrato de aprendizaje</h4>
+<div class="articulo-content"><p>En LA FAMILIA CAFE S.A.S reconocemos como elementos especiales del contrato de aprendizaje:</p>
+</div><p>1.	Su finalidad eminentemente formativa, orientada a que la persona aprendiz desarrolle competencias técnicas, comportamentales y laborales relacionadas con el giro ordinario de nuestras actividades.</p>
+</div><p>2.	La subordinación jurídica limitada a las actividades propias del proceso de aprendizaje, sin extenderse a tareas ajenas al plan formativo.</p>
+</div><p>3.	La formación se recibe a título personal e intransferible, por lo que la posición de aprendiz no puede cederse ni delegarse.</p>
+</div><p>4.	La persona aprendiz participa en actividades administrativas, comerciales, logísticas o de apoyo relacionadas con nuestra operación de exportación de café, bajo supervisión y acompañamiento permanente.</p>
+</div><h4 id="articulo-14">Artículo 14. Remuneración, apoyo de sostenimiento y seguridad social</h4>
+<div class="articulo-content"><p>En LA FAMILIA CAFE S.A.S otorgamos a las personas aprendices un apoyo económico o salario según lo determine la legislación vigente. En todo caso:</p>
+</div><p>1.	Cuando la modalidad sea formación dual (teoría y práctica combinadas), garantizamos, como mínimo, los porcentajes del salario mínimo legal mensual vigente que establezca la ley para cada etapa.</p>
+</div><p>2.	Cuando la modalidad sea formación tradicional (fase lectiva y fase práctica diferenciadas), respetamos los porcentajes mínimos definidos para cada fase.</p>
+</div><p>3.	En el caso de estudiantes universitarios en práctica profesional, el apoyo o salario no será inferior al equivalente a un (1) salario mínimo legal mensual vigente, en los términos establecidos por la ley.</p>
+</div><p>Durante la relación de aprendizaje:</p>
+</div><ul><li>La persona aprendiz será afiliada al Sistema de Seguridad Social en salud, pensiones y riesgos laborales, según la etapa de formación y las reglas específicas fijadas por la normativa vigente.</li><ul><li>Se reconocerán las prestaciones sociales y demás derechos que la ley atribuya a esta modalidad especial de contrato, en los porcentajes, condiciones y etapas que correspondan.</li><h4 id="articulo-15">Artículo 15. Duración del contrato de aprendizaje</h4>
+<div class="articulo-content"><p>La duración del contrato de aprendizaje en LA FAMILIA CAFE S.A.S se ajustará a los límites que establezca la ley para esta modalidad, incluyendo:</p>
+</div><p>1.	Un término máximo global (incluyendo prórrogas) que no podrá exceder el límite legal establecido para los contratos de aprendizaje.</p>
+</div><p>2.	La cobertura de la etapa lectiva y la etapa práctica o productiva, en armonía con el plan de estudios o programa formativo definido por la institución educativa o por el SENA.</p>
+</div><p>En el caso de prácticas universitarias, técnicas o tecnológicas, la duración se ajustará al tiempo previsto en el plan de estudios aprobado por la autoridad educativa competente, siempre dentro de los límites máximos que señale la ley.</p>
+</div><h4 id="articulo-16">Artículo 16. Terminación del contrato de aprendizaje y reemplazo del aprendiz</h4>
+<div class="articulo-content"><p>Al finalizar la relación de aprendizaje, ya sea por:</p>
+</div><ul><li>Cumplimiento del término pactado,</li><ul><li>Culminación del programa formativo,</li><ul><li>Mutuo acuerdo,</li><ul><li>Justa causa o</li><ul><li>Cualquiera otra causal contemplada en la ley,</li><p>LA FAMILIA CAFE S.A.S cumplirá con las obligaciones de liquidación, reporte y reemplazo que la normatividad vigente establezca en materia de cuota de aprendices, informando cuando corresponda al SENA o a la entidad competente y gestionando oportunamente la vinculación de un nuevo aprendiz, cuando sea obligatorio conservar la proporción exigida por la ley.</p>
+</div></section><section id="capitulo-3" style="padding-top: 20px; border-top: 1px solid #ccc;"><h2>Capítulo IV: </h2><h5>TRABAJADORES TRANSITORIOS Y CONTRATOS POR OBRA O LABOR</h5><h4 id="articulo-17">Artículo 17. Definición de trabajadores transitorios</h4>
+<div class="articulo-content"><p>En LA FAMILIA CAFE S.A.S consideramos como trabajadores transitorios a las personas que vinculamos por un tiempo determinado, exclusivamente para ejecutar una obra o labor específica, o para atender un incremento temporal y comprobable en la demanda de trabajo, en los términos del Código Sustantivo del Trabajo y de la reforma laboral vigente.</p>
+</div><p>Estos contratos tienen como finalidad atender necesidades reales y claramente delimitadas en el tiempo, sin que puedan utilizarse para desnaturalizar la regla general del contrato a término indefinido.</p>
+</div><p>________________________________________</p>
+</div><h4 id="articulo-18">Artículo 18. Contrato por obra o labor determinada</h4>
+<div class="articulo-content"><p>Cuando en LA FAMILIA CAFE S.A.S resulte necesario celebrar contratos por obra o labor determinada, observamos las siguientes reglas:</p>
+</div><p>1.	El contrato debe celebrarse por escrito, dejando descrita de forma precisa y detallada la obra o labor que la persona trabajadora desarrollará.</p>
+</div><p>2.	En el contrato indicamos con claridad:</p>
+</div><p>o	El objeto de la obra o labor.</p>
+</div><p>o	Sus actividades principales.</p>
+</div><p>o	Los criterios de terminación, es decir, las condiciones objetivas que permiten considerar cumplida la obra o labor contratada.</p>
+</div><p>3.	La duración del contrato estará ligada al tiempo estrictamente necesario para la ejecución de la obra o labor, sin fraccionamientos artificiales ni renovaciones sucesivas que busquen eludir la estabilidad propia del contrato a término indefinido.</p>
+</div><p>4.	En todo caso, la persona trabajadora transitoria cuenta con los mismos derechos laborales mínimos (salario, prestaciones, seguridad social, protección de la dignidad, seguridad y salud en el trabajo) que las demás personas trabajadoras de la empresa, en proporción al tiempo de servicio.</p>
+</div><p>________________________________________</p>
+</div><h4 id="articulo-19">Artículo 19. Naturaleza del trabajo transitorio en LA FAMILIA CAFE S.A.S</h4>
+<div class="articulo-content"><p>En LA FAMILIA CAFE S.A.S entendemos como trabajo transitorio, entre otros, los casos en los que:</p>
+</div><p>1.	Se requiera ejecutar un proyecto específico asociado a la exportación de café (por ejemplo, una campaña comercial puntual, la implementación de una herramienta tecnológica para la gestión logística, una consultoría especializada, o un proyecto con un cliente que tenga fecha de terminación definida).</p>
+</div><p>2.	Se presente un incremento temporal en la demanda de trabajo, derivado de factores como temporadas altas, picos de exportación, participación en ferias o eventos comerciales, u otras circunstancias que justifiquen un refuerzo por tiempo limitado.</p>
+</div><p>La duración del contrato será únicamente la necesaria para atender la necesidad específica descrita y no generará, por sí misma, derecho a permanencia indefinida ni a estabilidad laboral reforzada, salvo los casos en que la ley otorgue una protección especial (por ejemplo, por estado de embarazo, fuero de salud u otros fueros legalmente reconocidos).</p>
+</div><p>________________________________________</p>
+</div><h4 id="articulo-20">Artículo 20. Conversión a contrato a término indefinido</h4>
+<div class="articulo-content"><p>En LA FAMILIA CAFE S.A.S reconocemos que, si en la práctica:</p>
+</div><p>1.	La obra o labor contratada no está claramente delimitada, o</p>
+</div><p>2.	El contrato por obra o labor se utiliza de forma indefinida o sucesiva para cubrir necesidades permanentes de la empresa, o</p>
+</div><p>3.	Una vez terminada la obra o labor, la persona trabajadora continúa prestando servicios sin solución de continuidad, desempeñando funciones que responden a necesidades permanentes,</p>
+</div><p>el vínculo podrá considerarse, de acuerdo con la ley y la interpretación de las autoridades laborales y judiciales, como un contrato a término indefinido desde su inicio, con las consecuencias jurídicas propias de esta modalidad.</p>
+</div><p>Cuando se trate realmente de una nueva obra o labor distinta, LA FAMILIA CAFE S.A.S:</p>
+</div><ul><li>Podrá adicionar por escrito el contrato existente, describiendo de forma clara y precisa la nueva obra o labor y su duración estimada, o</li><ul><li>Podrá liquidar el contrato anterior e iniciar un nuevo contrato por obra o labor, dejando siempre evidencia escrita de la diferencia entre ambas necesidades.</li><p>________________________________________</p>
+</div><h4 id="articulo-21">Artículo 21. Registro y control de los contratos transitorios</h4>
+<div class="articulo-content"><p>Con el fin de garantizar transparencia y cumplimiento normativo, en LA FAMILIA CAFE S.A.S llevamos un registro interno de los contratos por obra o labor y demás vínculos transitorios, en el que se consigna, como mínimo:</p>
+</div><p>1.	La identificación de la persona trabajadora.</p>
+</div><p>2.	La descripción de la obra o labor contratada.</p>
+</div><p>3.	La fecha de inicio y la fecha estimada de terminación.</p>
+</div><p>4.	Las modificaciones, adiciones o prórrogas que se acuerden.</p>
+</div><p>Este registro nos permite verificar que el uso de esta modalidad contractual se mantenga dentro de los límites legales, responda a necesidades realmente transitorias y no se convierta en una forma de desconocer la estabilidad que corresponde a las personas vinculadas mediante contrato a término indefinido.</p>
+</div></section><section id="capitulo-4" style="padding-top: 20px; border-top: 1px solid #ccc;"><h2>Capítulo V: </h2><h5>JORNADA Y HORARIO DE TRABAJO</h5><h4 id="articulo-22">Artículo 22. Jornada ordinaria de trabajo y jornada semanal</h4>
+<div class="articulo-content"><p>En LA FAMILIA CAFE S.A.S entendemos la jornada ordinaria de trabajo de conformidad con lo previsto en el Código Sustantivo del Trabajo y en la Ley 2101 de 2021, que establece la reducción gradual de la jornada máxima semanal.</p>
+</div><p>1.	La jornada ordinaria diaria será, como regla general, de ocho (8) horas.</p>
+</div><p>2.	La jornada semanal máxima se aplicará de manera gradual así:</p>
+</div><p>o	Hasta el 14 de julio de 2026, la jornada ordinaria será de cuarenta y cuatro (44) horas semanales, conforme al artículo 3 de la Ley 2101 de 2021.</p>
+</div><p>o	A partir del 15 de julio de 2026, la jornada ordinaria será de cuarenta y dos (42) horas semanales, de acuerdo con la misma ley.</p>
+</div><p>En todos los casos, garantizamos por lo menos un (1) día de descanso remunerado a la semana, preferiblemente el día domingo, conforme a las normas que regulan el descanso dominical y los días de fiesta.</p>
+</div><p>________________________________________</p>
+</div><h4 id="articulo-23">Artículo 23. Distribución de la jornada y modalidades especiales</h4>
+<div class="articulo-content"><p>En LA FAMILIA CAFE S.A.S, la jornada ordinaria podrá distribuirse de manera flexible, siempre dentro de los límites legales, teniendo en cuenta la naturaleza de nuestras actividades administrativas, comerciales y logísticas relacionadas con la compra y exportación de café.</p>
+</div><p>1.	Distribución semanal y jornadas diarias flexibles. Podemos acordar con las personas trabajadoras que la jornada semanal (44 horas hasta el 14 de julio de 2026, y 42 horas a partir del 15 de julio de 2026) se desarrolle en un máximo de seis (6) días a la semana, con un día de descanso obligatorio, que podrá coincidir con el domingo.</p>
+</div><p>2.	Distribución variable diaria. El número de horas de trabajo diario podrá ser variable durante la respectiva semana, siempre que:</p>
+</div><p>o	Se respeten como mínimo cuatro (4) horas continuas de trabajo al día, y</p>
+</div><p>o	No se excedan nueve (9) horas de trabajo al día, sin que ello genere recargo por trabajo suplementario cuando el total de horas no supere el promedio de la jornada semanal máxima (44 o 42 horas, según el caso), de conformidad con el artículo 160 del Código Sustantivo del Trabajo y las normas que lo modifiquen o complementen.</p>
+</div><p>3.	Jornada nocturna y recargos. Cuando, de acuerdo con el horario pactado, la persona trabajadora deba laborar en jornada nocturna, se reconocerán los recargos nocturnos y demás recargos legales que resulten aplicables, según lo establecido en el Código Sustantivo del Trabajo y en la reforma laboral vigente, teniendo en cuenta el horario legalmente definido para la jornada nocturna y los porcentajes de recargo en cada momento.</p>
+</div><p>4.	Modalidades presenciales, remotas o mixtas. En los casos en que se acuerde teletrabajo, trabajo en casa o trabajo remoto, la jornada se ajustará a las normas especiales que regulan estas modalidades (Ley 1221 de 2008, Ley 2088 de 2021, Ley 2121 de 2021, Decreto 555 de 2022 y demás normas concordantes), procurando que la distribución de horarios respete el derecho a la desconexión laboral y el equilibrio entre la vida personal y laboral.</p>
+</div><p>________________________________________</p>
+</div><h4 id="articulo-24">Artículo 24. Jornada de trabajo para menores de edad</h4>
+<div class="articulo-content"><p>En LA FAMILIA CAFE S.A.S, como regla general, no promovemos la vinculación de menores de edad. Sin embargo, en el evento excepcional en que, conforme a la ley, se autorice la vinculación de adolescentes trabajadores, aplicaremos estrictamente lo previsto en el Código de la Infancia y la Adolescencia (Ley 1098 de 2006) y las normas que lo desarrollen:</p>
+</div><p>1.	Adolescentes entre 15 y 17 años con autorización para trabajar:</p>
+</div><p>o	Podrán laborar únicamente en jornada diurna,</p>
+</div><p>o	Hasta un máximo de seis (6) horas diarias y treinta (30) horas semanales,</p>
+</div><p>o	Con prohibición absoluta de trabajo nocturno, dominical o en días festivos, salvo las excepciones legales expresas.</p>
+</div><p>2.	Adolescentes mayores de 17 y menores de 18 años, con las autorizaciones correspondientes:</p>
+</div><p>o	Podrán laborar hasta ocho (8) horas diarias y cuarenta (40) horas semanales,</p>
+</div><p>o	Con las restricciones y protecciones especiales que establezca la normativa aplicable.</p>
+</div><p>En todo caso, la prioridad será la protección integral de los derechos de niños, niñas y adolescentes, de conformidad con la Constitución Política y la Ley 1098 de 2006, y la empresa se reserva el derecho de abstenerse de vincular menores cuando considere que las funciones o el entorno de trabajo no son adecuados para su edad o condición.</p>
+</div><p>________________________________________</p>
+</div><h4 id="articulo-25">Artículo 25. Descansos durante la jornada de trabajo</h4>
+<div class="articulo-content"><p>En LA FAMILIA CAFE S.A.S reconocemos que los descansos intrajornada contribuyen al bienestar y al desempeño de las personas trabajadoras. Por ello:</p>
+</div><p>1.	Durante la jornada diaria de trabajo, las personas trabajadoras tienen derecho a un mínimo de treinta (30) minutos de descanso, que normalmente se distribuirán en:</p>
+</div><p>o	Quince (15) minutos en la jornada de la mañana, y</p>
+</div><p>o	Quince (15) minutos en la jornada de la tarde.</p>
+</div><p>2.	Estos períodos de descanso se entienden como parte de la jornada laboral y tienen como finalidad:</p>
+</div><p>o	Facilitar la recuperación física y mental,</p>
+</div><p>o	Mejorar el rendimiento laboral, y</p>
+</div><p>o	Favorecer un ambiente de trabajo saludable y productivo, en armonía con las políticas de seguridad y salud en el trabajo y con los criterios de entorno laboral saludable definidos por la normatividad vigente.</p>
+</div><p>Cuando, por necesidades ocasionales del servicio, no sea posible otorgar estos descansos en el momento habitual, se procurará que sean disfrutados en un momento cercano, sin suprimirlos injustificadamente.</p>
+</div><p>________________________________________</p>
+</div><h4 id="articulo-26">Artículo 26. Refrigerios, almuerzo y tiempo para alimentación</h4>
+<div class="articulo-content"><p>En LA FAMILIA CAFE S.A.S asumimos el compromiso de promover hábitos saludables y condiciones dignas de trabajo. En ese sentido:</p>
+</div><p>1.	Los refrigerios de media mañana y media tarde que la empresa establezca como parte de su política de bienestar y calidad de vida laboral estarán a cargo de la empresa, en los términos y condiciones que se definan internamente.</p>
+</div><p>2.	Si una persona trabajadora decide consumir productos adicionales a los establecidos por la empresa como refrigerios, estos serán asumidos directamente por la persona trabajadora.</p>
+</div><p>En cuanto al almuerzo:</p>
+</div><p>1.	El tiempo destinado para el almuerzo será, como regla general, de una (1) hora a una (1) hora y treinta (30) minutos, en un horario que se definirá de acuerdo con las necesidades del servicio y que será comunicado de manera clara a las personas trabajadoras.</p>
+</div><p>2.	Este espacio de almuerzo no será acumulable y deberá disfrutarse diariamente dentro del lapso establecido.</p>
+</div><p>3.	En los casos en que, por la naturaleza de las funciones (por ejemplo, reuniones con clientes, coordinación con puertos, diferencias horarias con compradores internacionales u otras actividades propias de la exportación de café), no sea posible tomar el almuerzo en el horario habitual, la persona trabajadora deberá disfrutarlo de manera inmediata una vez concluida la actividad correspondiente, garantizando siempre su derecho al descanso y a la alimentación.</p>
+</div><p>________________________________________</p>
+</div><h4 id="articulo-27">Artículo 27. Ius variandi y ajustes en los horarios de trabajo</h4>
+<div class="articulo-content"><p>En LA FAMILIA CAFE S.A.S reconocemos la facultad del empleador de introducir cambios razonables en las condiciones de modo, tiempo y lugar de la prestación del servicio, conocida como ius variandi, derivada de la subordinación prevista en el artículo 23 del Código Sustantivo del Trabajo, modificado por el artículo 1 de la Ley 50 de 1990, y desarrollada por la jurisprudencia laboral.</p>
+</div><p>1.	Ejercicio del ius variandi En ejercicio de esta facultad, LA FAMILIA CAFE S.A.S podrá realizar ajustes o modificaciones a los horarios de trabajo previamente establecidos, cuando así lo exijan:</p>
+</div><p>o	Las necesidades del servicio,</p>
+</div><p>o	La naturaleza de nuestra operación de servicios comerciales y logísticos de exportación de café,</p>
+</div><p>o	La atención de clientes internacionales en diferentes husos horarios, o</p>
+</div><p>o	Situaciones imprevistas que requieran garantizar la continuidad de la actividad empresarial.</p>
+</div><p>2.	Límites del ius variandi Al aplicar cambios en los horarios de trabajo, nos comprometemos a:</p>
+</div><p>o	Respetar en todo momento la dignidad humana de las personas trabajadoras.</p>
+</div><p>o	No desconocer los derechos mínimos laborales ni desmejorar las condiciones esenciales del contrato.</p>
+</div><p>o	No alterar de manera desproporcionada su vida personal, familiar y social.</p>
+</div><p>3.	Procedimiento para la modificación de horarios: Como regla general, en LA FAMILIA CAFE S.A.S informaremos los horarios de trabajo de manera semanal o con la periodicidad que resulte adecuada, procurando comunicar cualquier cambio con un mínimo de cuarenta y ocho (48) horas de anticipación, para facilitar la organización personal y familiar de las personas trabajadoras.</p>
+</div><p>Solo en situaciones de fuerza mayor, urgencia operativa o casos imprevistos que exijan medidas inmediatas, el ajuste de horarios podrá realizarse con un aviso más corto, dejando constancia clara de las razones que lo justifican.</p>
+</div><p>4.	Garantía de no desmejoramiento En ningún caso la modificación de horarios implicará:</p>
+</div><p>o	La supresión de beneficios reconocidos, ni</p>
+</div><p>o	Un desmejoramiento injustificado de las condiciones esenciales del contrato de trabajo.</p>
+</div><p>Siempre buscaremos mantener el equilibrio contractual y el respeto por los derechos adquiridos, en armonía con los principios de buena fe, razonabilidad y proporcionalidad.</p>
+</div></section><section id="capitulo-5" style="padding-top: 20px; border-top: 1px solid #ccc;"><h2>Capítulo VI: </h2><p>HORAS EXTRAS, RECARGOS Y TRABAJO NOCTURNO</p>
+</div><h4 id="articulo-28">Artículo 28. Definición de trabajo ordinario y trabajo nocturno</h4>
+<div class="articulo-content"><p>En LA FAMILIA CAFE S.A.S entendemos la jornada de trabajo así, de conformidad con el Código Sustantivo del Trabajo, la Ley 2101 de 2021 y la Ley 2466 de 2025 (reforma laboral):</p>
+</div><p>1.	Trabajo ordinario diurno: Es el que se realiza, en principio, entre las 6:00 a. m. y las 9:00 p. m., dentro de la jornada ordinaria legal y pactada, de acuerdo con el artículo 160 del Código Sustantivo del Trabajo y las normas que lo modifican o complementan.</p>
+</div><p>2.	Trabajo nocturno:</p>
+</div><p>o	Mientras se mantenga el régimen anterior, el trabajo nocturno se entiende realizado entre las 9:00 p. m. y las 6:00 a. m. del día siguiente, generando el recargo nocturno previsto en el artículo 168 del Código Sustantivo del Trabajo.</p>
+</div><p>o	De conformidad con la Ley 2466 de 2025, y según lo que disponga su reglamentación y las comunicaciones oficiales del Ministerio del Trabajo, la franja de trabajo nocturno se amplía para iniciarse desde las 7:00 p. m. hasta las 6:00 a. m., reconociendo el recargo nocturno del 35 % sobre la hora ordinaria en ese intervalo, a partir de la fecha de entrada en vigor de dicha modificación.</p>
+</div><p>En todos los casos, cuando una persona trabajadora de LA FAMILIA CAFE S.A.S labore dentro de la franja nocturna definida legalmente, tendrá derecho al recargo nocturno que la norma vigente establezca.</p>
+</div><p>________________________________________</p>
+</div><h4 id="articulo-29">Artículo 29. Trabajo suplementario u horas extras</h4>
+<div class="articulo-content"><p>En LA FAMILIA CAFE S.A.S consideramos trabajo suplementario u horas extras aquel que:</p>
+</div><p>1.	Excede la jornada ordinaria diaria o semanal que se haya pactado en el contrato o en acuerdos posteriores, y</p>
+</div><p>2.	Supera la jornada máxima legal vigente, que se encuentra en proceso de reducción gradual a 42 horas semanales, de acuerdo con el artículo 161 del Código Sustantivo del Trabajo modificado por la Ley 2101 de 2021.</p>
+</div><p>La realización de trabajo suplementario debe responder a necesidades reales y concretas de la empresa, como:</p>
+</div><ul><li>Atender cierres de operaciones con clientes internacionales.</li><ul><li>Gestionar envíos o trámites urgentes relacionados con la exportación de café.</li><ul><li>Atender situaciones excepcionales de carga de trabajo que no hayan podido planearse dentro del horario ordinario.</li><p>En LA FAMILIA CAFE S.A.S el trabajo suplementario siempre debe estar previamente autorizado por la gerencia o por quien esta delegue, salvo los casos de urgencia real e imprevisible en los que la autorización se formalizará inmediatamente después de superado el hecho.</p>
+</div><p>________________________________________</p>
+</div><h4 id="articulo-30">Artículo 30. Límites legales al trabajo suplementario</h4>
+<div class="articulo-content"><p>En LA FAMILIA CAFE S.A.S respetamos los límites fijados por la ley para la realización de horas extras, de conformidad con los artículos 161, 162 y 163 del Código Sustantivo del Trabajo:</p>
+</div><p>1.	Como regla general, las horas extras no podrán exceder de dos (2) horas diarias ni doce (12) horas semanales por persona.</p>
+</div><p>2.	Solo en los casos excepcionales contemplados en el artículo 163 del Código Sustantivo del Trabajo (fuerza mayor, prevención o reparación de daños graves, situaciones que comprometan la vida o la seguridad de las personas, o riesgo grave para los bienes de la empresa), será posible exceder temporalmente estos límites, dejando constancia clara de las razones que motivaron la decisión.</p>
+</div><p>Estos límites buscan proteger la salud física y mental, el derecho al descanso y el equilibrio entre la vida laboral y personal de quienes hacen parte de LA FAMILIA CAFE S.A.S.</p>
+</div><p>________________________________________</p>
+</div><h4 id="articulo-31">Artículo 31. Tasas de recargo y forma de pago del trabajo suplementario</h4>
+<div class="articulo-content"><p>En LA FAMILIA CAFE S.A.S remuneramos el trabajo suplementario y los recargos conforme a los porcentajes establecidos en el Código Sustantivo del Trabajo (arts. 168 y 179) y su regulación actualizada, incluyendo la Ley 2466 de 2025:</p>
+</div><p>1.	Hora extra diurna: recargo del 25 % sobre el valor de la hora ordinaria diurna.</p>
+</div><p>2.	Hora extra nocturna: recargo del 75 % sobre el valor de la hora ordinaria diurna.</p>
+</div><p>3.	Trabajo nocturno ordinario (no extra): recargo del 35 % sobre la hora ordinaria, al laborarse dentro de la franja de jornada nocturna definida legalmente.</p>
+</div><p>4.	Trabajo dominical y festivo ordinario: recargo progresivo sobre la hora ordinaria, conforme al artículo 179 del CST y la Ley 2466, así:</p>
+</div><p>o	Hasta junio de 2025: 75 %.</p>
+</div><p>o	Desde julio de 2025 hasta junio de 2026: 80 %.</p>
+</div><p>o	Desde julio de 2026 hasta junio de 2027: 90 %.</p>
+</div><p>o	Desde julio de 2027 en adelante: 100 %.</p>
+</div><p>5.	Horas extras en domingos y festivos: el recargo integra el porcentaje de hora extra (25 % diurna o 75 % nocturna) más el recargo dominical o festivo correspondiente, lo que da lugar a recargos como el 105 %, 115 % o 155 %, según el caso y la etapa de implementación de la Ley 2466.</p>
+</div><p>En LA FAMILIA CAFE S.A.S los recargos se liquidan y pagan junto con el salario del período correspondiente, dejando claridad en el comprobante de pago sobre:</p>
+</div><ul><li>El número de horas extraordinarias laboradas (diurnas y nocturnas).</li><ul><li>Las horas trabajadas en domingos y festivos.</li><ul><li>El valor de los recargos aplicados en cada caso.</li><p>________________________________________</p>
+</div><h4 id="articulo-32">Artículo 32. Tabla de referencia de recargos (vigencia 2025)</h4>
+<div class="articulo-content"><p>Sin perjuicio de las actualizaciones que introduzcan nuevas normas, en LA FAMILIA CAFE S.A.S tomamos como referencia para el año 2025 la siguiente tabla de recargos, de acuerdo con la normatividad vigente y la doctrina técnica especializada:</p>
+</div><p>Tipo de trabajo	Recargo sobre la hora ordinaria</p>
+</div><p>Hora extra diurna	25 %</p>
+</div><p>Hora extra nocturna	75 %</p>
+</div><p>Hora extra diurna en domingo o festivo	105 %</p>
+</div><p>Hora extra nocturna en domingo o festivo	155 %</p>
+</div><p>Trabajo nocturno ordinario (no extra)	35 %</p>
+</div><p>Trabajo dominical o festivo ordinario	80 % (desde julio de 2025)</p>
+</div><p>Trabajo nocturno dominical o festivo ordinario	115 %</p>
+</div><p>Aclaramos que los últimos tres conceptos corresponden a trabajo ordinario desarrollado en horarios o días especiales, no a horas extras. Por tanto, el recargo se calcula sobre la hora ordinaria, sin perjuicio de que, si además se excede la jornada, se sumen los porcentajes de recargo que correspondan.</p>
+</div><p>Cuando la ley modifique estos porcentajes o etapas de implementación, LA FAMILIA CAFE S.A.S aplicará automáticamente los nuevos valores, aunque la tabla aquí descrita no se haya actualizado de forma inmediata en el texto del reglamento.</p>
+</div><p>________________________________________</p>
+</div><h4 id="articulo-33">Artículo 33. Autorización y control del trabajo suplementario</h4>
+<div class="articulo-content"><p>En LA FAMILIA CAFE S.A.S únicamente reconocemos trabajo suplementario u horas extras cuando:</p>
+</div><p>1.	Ha sido expresamente autorizado por la gerencia o por la jefatura competente, antes de su realización, salvo en casos de urgencia real e imprevisible.</p>
+</div><p>2.	Corresponde a actividades efectivamente realizadas, justificadas por necesidades concretas del servicio, tales como cierres de procesos de exportación, coordinación con puertos, atención de clientes internacionales en horarios especiales u otras situaciones propias de nuestra operación.</p>
+</div><p>La simple permanencia en las instalaciones, en el domicilio o en los canales virtuales de la empresa, sin que se haya ordenado o requerido la ejecución de labores específicas fuera del horario ordinario, no genera por sí misma el derecho al pago de horas extras, por cuanto no constituye trabajo efectivo.</p>
+</div><p>Las solicitudes de autorización de horas extras deberán:</p>
+</div><ul><li>Presentarse con antelación, indicando la justificación, las actividades a realizar y el tiempo estimado,</li><ul><li>O, en caso de urgencia, formalizarse inmediatamente después de superado el evento, dejando constancia escrita.</li><p>________________________________________</p>
+</div><h4 id="articulo-34">Artículo 34. Registro del trabajo suplementario</h4>
+<div class="articulo-content"><p>En LA FAMILIA CAFE S.A.S llevamos un registro detallado de las horas extras y recargos de cada persona trabajadora, en cumplimiento de lo previsto en el artículo 162 del Código Sustantivo del Trabajo y las recomendaciones de las autoridades laborales.</p>
+</div><p>Este registro incluye, como mínimo:</p>
+</div><p>1.	Nombre e identificación de la persona trabajadora.</p>
+</div><p>2.	Fecha en que se realizaron las horas extras.</p>
+</div><p>3.	Número de horas diurnas y nocturnas.</p>
+</div><p>4.	Indicación de si se trata de trabajo en días ordinarios, domingos o festivos.</p>
+</div><p>5.	Descripción general de las actividades realizadas.</p>
+</div><p>El registro podrá llevarse en formatos físicos o digitales, siempre que se garantice:</p>
+</div><ul><li>La veracidad y trazabilidad de la información.</li><ul><li>La conservación de los datos durante el tiempo que establezca la ley.</li><ul><li>El acceso controlado a la información, conforme a la normativa de protección de datos personales.</li><p>Las personas trabajadoras tienen derecho a conocer su registro individual de horas extras y podrán solicitar certificación de dicha información cuando lo requieran para fines legales, personales o de seguridad social.</p>
+</div></section><section id="capitulo-6" style="padding-top: 20px; border-top: 1px solid #ccc;"><h2>Capítulo VII: </h2><p>DESCANSOS, VACACIONES, PERMISOS Y LICENCIAS REMUNERADAS</p>
+</div><p>________________________________________</p>
+</div><h4 id="articulo-35">Artículo 35. Días de descanso obligatorio y días festivos</h4>
+<div class="articulo-content"><p>En LA FAMILIA CAFE S.A.S reconocemos como días de descanso obligatorio remunerado los domingos y los días de fiesta de carácter civil o religioso establecidos en la legislación colombiana, de conformidad con los artículos 172 y siguientes del Código Sustantivo del Trabajo y con la Ley 51 de 1983 – Ley Emiliani.</p>
+</div><p>Como referencia general, tienen tal carácter, entre otros:</p>
+</div><p>1.	Fechas fijas:</p>
+</div><p>o	1º de enero (Año Nuevo)</p>
+</div><p>o	1º de mayo (Día del Trabajo)</p>
+</div><p>o	20 de julio (Independencia)</p>
+</div><p>o	7 de agosto (Batalla de Boyacá)</p>
+</div><p>o	8 de diciembre (Inmaculada Concepción)</p>
+</div><p>o	25 de diciembre (Navidad)</p>
+</div><p>2.	Fechas trasladables al lunes siguiente, según la Ley Emiliani:</p>
+</div><p>o	6 de enero (Reyes Magos)</p>
+</div><p>o	19 de marzo (San José)</p>
+</div><p>o	29 de junio (San Pedro y San Pablo)</p>
+</div><p>o	15 de agosto (Asunción de la Virgen)</p>
+</div><p>o	12 de octubre (Día de la Raza)</p>
+</div><p>o	1º de noviembre (Todos los Santos)</p>
+</div><p>o	11 de noviembre (Independencia de Cartagena), entre otros días que la ley señale.</p>
+</div><p>3.	Fechas móviles:</p>
+</div><p>o	Jueves y Viernes Santo</p>
+</div><p>o	Ascensión del Señor</p>
+</div><p>o	Corpus Christi</p>
+</div><p>o	Sagrado Corazón de Jesús</p>
+</div><p>La remuneración del descanso en días festivos se liquida como para el descanso dominical, sin que haya lugar a descuento por falta al trabajo, en los términos de la Ley 51 de 1983.</p>
+</div><p>Cuando la ley cree nuevos días festivos o modifique el calendario (por ejemplo, incrementando el número de festivos a partir de 2026), LA FAMILIA CAFE S.A.S aplicará automáticamente esas disposiciones, aun cuando no se haya actualizado aún la lista en este reglamento.</p>
+</div><p>________________________________________</p>
+</div><h4 id="articulo-36">Artículo 36. Trabajo en días de descanso obligatorio</h4>
+<div class="articulo-content"><p>En LA FAMILIA CAFE S.A.S el trabajo realizado en domingos y días festivos se rige por el artículo 179 del Código Sustantivo del Trabajo, modificado por la legislación posterior, incluida la Ley 2466 de 2025, en lo relativo a los recargos dominicales y festivos.</p>
+</div><p>1.	Derecho al descanso y recargo:</p>
+</div><p>o	Cuando una persona trabajadora labora en un día de descanso obligatorio (domingo o festivo), tiene derecho a:</p>
+</div><p>	El salario ordinario correspondiente a la semana, y</p>
+</div><p>	El recargo dominical o festivo establecido por la ley, sin perjuicio de las reglas sobre compensatorio.</p>
+</div><p>2.	Clasificación del trabajo dominical y festivo:</p>
+</div><p>o	Trabajo ocasional: Cuando la persona trabajadora labora hasta dos (2) domingos o festivos al mes, se considera trabajo ocasional en los términos del Código Sustantivo del Trabajo.</p>
+</div><p>o	Trabajo habitual: Cuando labora tres (3) o más domingos o festivos en el mismo mes, se considera trabajo habitual y se aplican las consecuencias legales correspondientes (por ejemplo, el derecho al descanso compensatorio cuando lo establezca la norma).</p>
+</div><p>3.	Acuerdo sobre el día de descanso: Podremos convenir por escrito que el día de descanso obligatorio sea distinto al domingo, cuando las necesidades de nuestra operación de servicios administrativos, comerciales y logísticos para la exportación de café lo requieran. Si no se pacta nada distinto en el contrato de trabajo u otro sí, se entenderá que el día de descanso obligatorio es el domingo.</p>
+</div><p>Los porcentajes de recargo aplicables se encuentran desarrollados en el capítulo de jornada, horas extras y recargos de este reglamento, y se ajustarán automáticamente a las variaciones que introduzca la ley (por ejemplo, el aumento gradual del recargo dominical hasta el 100 %).</p>
+</div><p>________________________________________</p>
+</div><h4 id="articulo-37">Artículo 37. Derecho a vacaciones anuales remuneradas</h4>
+<div class="articulo-content"><p>En LA FAMILIA CAFE S.A.S las personas trabajadoras que hayan prestado sus servicios durante un (1) año continuo tienen derecho a quince (15) días hábiles consecutivos de vacaciones remuneradas, conforme al artículo 186 del Código Sustantivo del Trabajo.</p>
+</div><p>Las vacaciones tienen por finalidad:</p>
+</div><ul><li>Permitir la recuperación física y mental de la persona trabajadora.</li><ul><li>Favorecer un adecuado balance entre vida laboral y personal.</li><ul><li>Contribuir a la prevención de riesgos psicosociales, en línea con las políticas de seguridad y salud en el trabajo.</li><p>En nuestras actividades de compra, negociación y coordinación logística de exportación de café, procuramos que la programación de vacaciones no afecte la continuidad de los servicios, pero sin desconocer el derecho de cada persona trabajadora a su descanso anual.</p>
+</div><p>________________________________________</p>
+</div><h4 id="articulo-38">Artículo 38. Programación y acumulación de vacaciones</h4>
+<div class="articulo-content"><p>En LA FAMILIA CAFE S.A.S la programación de vacaciones se realiza:</p>
+</div><p>1.	De común acuerdo entre la empresa y la persona trabajadora, buscando conciliar:</p>
+</div><p>o	Las necesidades operativas de la organización, y</p>
+</div><p>o	Los intereses personales y familiares de la persona trabajadora.</p>
+</div><p>2.	Mediante un cronograma anual de vacaciones que tiene en cuenta las épocas de mayor carga operativa (por ejemplo, temporadas de mayor actividad comercial y de exportación de café) para planear la salida de personal de manera escalonada.</p>
+</div><p>En todo caso:</p>
+</div><ul><li>La empresa dará a conocer con al menos quince (15) días de anticipación la fecha en que se concederán las vacaciones, de acuerdo con el artículo 187 del Código Sustantivo del Trabajo.</li><ul><li>Podrá acordarse la acumulación de vacaciones hasta por dos períodos cuando la ley lo permita y siempre que no se afecte la salud de la persona trabajadora.</li><ul><li>La compensación en dinero de vacaciones solo procederá en los casos autorizados por la ley (por ejemplo, al terminar el contrato de trabajo o en los eventos expresamente previstos en el CST).</li><p>________________________________________</p>
+</div><h4 id="articulo-39">Artículo 39. Remuneración durante las vacaciones</h4>
+<div class="articulo-content"><p>Durante el período de vacaciones, en LA FAMILIA CAFE S.A.S la persona trabajadora recibirá el salario ordinario que esté devengando al momento de iniciar su descanso, de conformidad con el artículo 192 del Código Sustantivo del Trabajo.</p>
+</div><p>Para efectos de cálculo:</p>
+</div><p>1.	Cuando se trate de salario fijo, se tomará como base el salario mensual vigente al inicio de las vacaciones.</p>
+</div><p>2.	Cuando se trate de salario variable (comisiones, bonificaciones salariales, etc.), se calculará el promedio de lo devengado en el último año de servicios o en todo el tiempo si es menor, incluyendo los factores salariales que la norma y la jurisprudencia consideren parte de la remuneración.</p>
+</div><p>________________________________________</p>
+</div><h4 id="articulo-40">Artículo 40. Registro de vacaciones</h4>
+<div class="articulo-content"><p>En LA FAMILIA CAFE S.A.S llevamos un registro detallado de vacaciones, en cumplimiento del artículo 187 del Código Sustantivo del Trabajo.</p>
+</div><p>En dicho registro se consigna como mínimo:</p>
+</div><p>1.	Nombre e identificación de la persona trabajadora.</p>
+</div><p>2.	Fecha de inicio y fecha de terminación de las vacaciones.</p>
+</div><p>3.	Período causante (año o fracción laborada).</p>
+</div><p>4.	Remuneración pagada por concepto de vacaciones.</p>
+</div><p>Este registro se mantiene actualizado y disponible para consulta de la persona trabajadora y de las autoridades administrativas o judiciales que lo soliciten.</p>
+</div><p>________________________________________</p>
+</div><h4 id="articulo-41">Artículo 41. Vacaciones proporcionales en contratos a término fijo y otras modalidades</h4>
+<div class="articulo-content"><p>En LA FAMILIA CAFE S.A.S, cuando se trate de:</p>
+</div><ul><li>Contratos a término fijo inferiores a un (1) año, o</li><ul><li>Contratos que finalicen antes de que la persona trabajadora complete el año de servicios,</li><p>las vacaciones se reconocerán en forma proporcional al tiempo laborado, cualquiera que este sea, de acuerdo con el artículo 189 del Código Sustantivo del Trabajo.</p>
+</div><p>Como referencia, la proporción se calcula a razón aproximada de 1,25 días hábiles por cada mes de servicio, o su proporción por fracción de mes, sin perjuicio de que se apliquen fórmulas exactas según el número de días laborados.</p>
+</div><p>________________________________________</p>
+</div><h4 id="articulo-42">Artículo 42. Permisos y licencias remuneradas – Marco general</h4>
+<div class="articulo-content"><p>En LA FAMILIA CAFE S.A.S reconocemos y concedemos los permisos y licencias remuneradas establecidos en el artículo 57 numeral 6 del Código Sustantivo del Trabajo, así como las ampliaciones introducidas por la Ley 2466 de 2025 y demás normas especiales, permitiendo la ausencia temporal sin pérdida de salario cuando exista una causa legalmente válida.</p>
+</div><p>Adicionalmente, este reglamento define beneficios extralegales en los casos en que la ley permite a las empresas otorgar permisos adicionales y fijar sus condiciones internas.</p>
+</div><p>________________________________________</p>
+</div><h4 id="articulo-43">Artículo 43. Casos específicos de permisos remunerados</h4>
+<div class="articulo-content"><p>En LA FAMILIA CAFE S.A.S concederemos permisos remunerados, entre otros, para los siguientes casos, de conformidad con el Código Sustantivo del Trabajo, la Ley 2466 de 2025 y demás normas complementarias:</p>
+</div><p>1.	Ejercicio del derecho al sufragio: Para que la persona trabajadora pueda votar en elecciones, plebiscitos, consultas populares u otros mecanismos de participación democrática.</p>
+</div><p>2.	Desempeño de cargos oficiales transitorios de forzosa aceptación: Cuando deba cumplir funciones públicas de carácter obligatorio.</p>
+</div><p>3.	Grave calamidad doméstica comprobada: Para atender situaciones familiares de extrema gravedad, debidamente soportadas. La Ley 2466 de 2025 amplía la cobertura de este tipo de licencias remuneradas, fortaleciendo la protección en estos eventos.</p>
+</div><p>4.	Asistencia al servicio médico y tratamientos de salud: Para citas médicas programadas, de urgencia o con especialistas, incluyendo controles y tratamientos de enfermedades crónicas o de alta complejidad. En el caso de trabajadoras con diagnóstico de endometriosis u otras condiciones ginecológicas que la normativa reconozca, se otorgarán las licencias remuneradas que establezca la Ley 2466 de 2025 y sus reglamentos.</p>
+</div><p>5.	Cumplimiento de citaciones legales: Para asistir a diligencias judiciales, administrativas o de cualquier autoridad competente, cuando la presencia de la persona trabajadora sea obligatoria.</p>
+</div><p>6.	Obligaciones como acudiente: Para asistir a reuniones, citaciones o actividades en instituciones educativas en las que la presencia del padre, madre, acudiente o representante sea requerida. Este derecho ha sido reforzado por la Ley 2466 de 2025 como parte de los nuevos permisos laborales.</p>
+</div><p>7.	Actividades sindicales y solidaridad laboral: para el ejercicio de comisiones sindicales debidamente acreditadas y, de manera reglada, para la asistencia a entierros de compañeros de trabajo, de acuerdo con los acuerdos internos y límites de personal que se definan en este reglamento.</p>
+</div><p>8.	Permisos personales justificados: Para atender asuntos personales importantes, sujetos a evaluación de la empresa y a la posibilidad de reponer o compensar el tiempo, cuando no se trate de licencias expresamente remuneradas por la ley.</p>
+</div><p>9.	Día de la Familia y uso de bicicleta como medio de transporte: LA FAMILIA CAFE S.A.S promoverá la movilidad sostenible y la vida saludable, pudiendo pactar con las personas trabajadoras beneficios como:</p>
+</div><p>o	Un día de descanso remunerado por uso frecuente y comprobado de bicicleta como medio de transporte laboral.</p>
+</div><p>________________________________________</p>
+</div><h4 id="articulo-44">Artículo 44. Condiciones generales para el otorgamiento de permisos</h4>
+<div class="articulo-content"><p>Para el otorgamiento y manejo de permisos, en LA FAMILIA CAFE S.A.S se aplicarán las siguientes reglas:</p>
+</div><p>1.	Aviso anticipado:</p>
+</div><p>o	Como regla general, la persona trabajadora deberá informar con al menos un (1) día de anticipación la necesidad del permiso, indicando la causa y la duración prevista.</p>
+</div><p>o	En casos de grave calamidad doméstica o urgencia, el aviso podrá darse de manera inmediata, tan pronto como la situación lo permita.</p>
+</div><p>2.	No afectación operativa: La concesión de permisos deberá considerar que el número de personas ausentes no afecte de manera grave la operación de LA FAMILIA CAFE S.A.S, especialmente en actividades críticas de negociación, coordinación logística y gestión con clientes o puertos. Esta condición se armoniza con el numeral 6 del artículo 57 del CST.</p>
+</div><p>3.	Reprogramación de permisos: LA FAMILIA CAFE S.A.S podrá reprogramar un permiso cuando su otorgamiento en la fecha inicialmente solicitada genere un impacto significativo en la operación empresarial, siempre que no se trate de una obligación legal inaplazable (por ejemplo, diligencias judiciales o citas médicas que no puedan modificarse).</p>
+</div><p>4.	Soportes documentales: La persona trabajadora deberá aportar los documentos de soporte del permiso:</p>
+</div><p>o	Certificados médicos o constancias de atención en salud.</p>
+</div><p>o	Citaciones judiciales, administrativas o educativas.</p>
+</div><p>o	Registros o certificados que acrediten la calamidad doméstica, el fallecimiento u otros hechos relevantes.</p>
+</div><p>5.	Permisos compensables o recuperables:</p>
+</div><p>o	Para ciertos permisos personales o salidas autorizadas, LA FAMILIA CAFE S.A.S podrá pactar con la persona trabajadora la reposición, compensación o recuperación del tiempo, mediante trabajo efectivo en horario diferente al ordinario, sin que ello constituya trabajo suplementario, siempre que no se supere la jornada máxima legal.</p>
+</div><p>6.	Procedimiento interno: Para solicitar cualquier permiso, la persona trabajadora deberá:</p>
+</div><p>o	Informar a la jefatura inmediata o al área de Talento Humano.</p>
+</div><p>o	Diligenciar el formato interno que LA FAMILIA CAFE S.A.S establezca para tal efecto, en el que se consignen la causa, duración estimada y tipo de permiso.</p>
+</div><p>________________________________________</p>
+</div><h4 id="articulo-45">Artículo 45. Licencia de maternidad y licencias parentales</h4>
+<div class="articulo-content"><p>En LA FAMILIA CAFE S.A.S reconocemos la licencia de maternidad en los términos del artículo 236 del Código Sustantivo del Trabajo, modificado por la Ley 1822 de 2017, y la normativa complementaria:</p>
+</div><p>1.	Duración:</p>
+</div><p>Toda trabajadora en estado de embarazo tiene derecho a una licencia de dieciocho (18) semanas en la época del parto, remunerada con el salario que esté devengando al iniciar la licencia.</p>
+</div><p>2.	Distribución:</p>
+</div><p>o	Al menos una (1) semana debe disfrutarse antes del parto, salvo indicación médica distinta.</p>
+</div><p>o	Las semanas restantes se disfrutan después del parto, con posibilidad de ajustes dentro de los rangos permitidos por la ley y la licencia parental compartida.</p>
+</div><p>3.	Documentación requerida: La trabajadora debe entregar a LA FAMILIA CAFE S.A.S un certificado médico en el que conste:</p>
+</div><p>o	El estado de embarazo debidamente certificado.</p>
+</div><p>o	La indicación de la fecha probable de parto.</p>
+</div><p>o	La indicación de la fecha de inicio de la licencia, respetando los mínimos legales.</p>
+</div><p>4.	Licencia parental compartida y flexible: En virtud de la Ley 2114 de 2021, LA FAMILIA CAFE S.A.S reconoce, cuando se cumplan los requisitos legales, la posibilidad de:</p>
+</div><p>o	Licencia parental compartida, mediante la cual parte de las semanas de la licencia de maternidad pueden ser compartidas con el padre.</p>
+</div><p>o	Licencia parental flexible por tiempo parcial, permitiendo que ambos padres distribuyan tiempos de trabajo y licencia, conforme a las reglas establecidas por la ley y las EPS.</p>
+</div><p>Durante la licencia de maternidad, LA FAMILIA CAFE S.A.S garantizará la estabilidad laboral reforzada de la trabajadora y apoyará la gestión de los trámites con la EPS para el pago oportuno de la prestación económica.</p>
+</div><p>________________________________________</p>
+</div><h4 id="articulo-46">Artículo 46. Licencia de paternidad</h4>
+<div class="articulo-content"><p>En LA FAMILIA CAFE S.A.S el padre trabajador tiene derecho a la licencia de paternidad prevista en el artículo 236 del Código Sustantivo del Trabajo, modificado por la Ley 1822 de 2017 y posteriormente por la Ley 2114 de 2021, esto es, dos (2) semanas de licencia remunerada de paternidad, sin perjuicio de los aumentos progresivos que lleguen a aprobarse en desarrollo de la reforma laboral.</p>
+</div><p>1.	Soporte obligatorio: El único soporte válido para el reconocimiento de la licencia de paternidad es el Registro Civil de Nacimiento, el cual deberá presentarse a la EPS dentro de los treinta (30) días siguientes al nacimiento del menor.</p>
+</div><p>2.	Parentalidad compartida: El padre también puede acceder, junto con la madre, a las modalidades de licencia parental compartida y licencia parental flexible por tiempo parcial, en los términos de la Ley 2114 de 2021 y su reglamentación.</p>
+</div><p>LA FAMILIA CAFE S.A.S brindará el apoyo documental y administrativo necesario para que el trabajador gestione su licencia ante la EPS correspondiente.</p>
+</div><p>________________________________________</p>
+</div><h4 id="articulo-47">Artículo 47. Descanso remunerado durante la lactancia</h4>
+<div class="articulo-content"><p>En LA FAMILIA CAFE S.A.S estamos obligados a conceder a la madre trabajadora que se encuentre en período de lactancia los descansos remunerados previstos en la ley:</p>
+</div><p>1.	Primeros seis (6) meses:</p>
+</div><p>o	Dos descansos de treinta (30) minutos cada uno, dentro de la jornada, sin descuento de salario, para amamantar a su hijo o para extraer la leche materna.</p>
+</div><p>2.	Desde los seis (6) meses hasta los dos (2) años de edad del menor:</p>
+</div><p>o	Un (1) descanso diario de treinta (30) minutos, en los mismos términos, siempre y cuando se mantenga y se manifieste una lactancia materna continua y adecuada, según lo han reconocido la jurisprudencia y conceptos recientes de las autoridades.</p>
+</div><p>3.	Descansos adicionales por orden médica:</p>
+</div><p>o	Se concederán más descansos que los señalados cuando la trabajadora presente certificado médico que justifique ese mayor número de pausas por razones de salud de la madre o del menor.</p>
+</div><p>LA FAMILIA CAFE S.A.S procurará habilitar un espacio adecuado, privado, limpio y seguro para que la trabajadora pueda amamantar o extraer y conservar la leche materna, en armonía con las políticas de entorno laboral saludable.</p>
+</div><p>________________________________________</p>
+</div><h4 id="articulo-48">Artículo 48. Licencia remunerada por luto</h4>
+<div class="articulo-content"><p>En LA FAMILIA CAFE S.A.S concederemos a la persona trabajadora, en caso de fallecimiento de su cónyuge, compañero(a) permanente o de un familiar hasta el segundo grado de consanguinidad, primer grado de afinidad y primer grado civil, una licencia remunerada por luto de cinco (5) días hábiles, conforme a la Ley 1280 de 2009, que adicionó el numeral 10 al artículo 57 del Código Sustantivo del Trabajo.</p>
+</div><p>1.	Independencia respecto de la calamidad doméstica: La grave calamidad doméstica es distinta de la licencia por luto; ambos son conceptos independientes, cada uno con su propia regulación y finalidad.</p>
+</div><p>2.	Grados de parentesco cobijados:</p>
+</div><p>o	Consanguinidad hasta segundo grado: padres, hijos, hermanos, abuelos, nietos.</p>
+</div><p>o	Afinidad hasta primer grado y algunos casos de segundo grado, según interpretación legal: cónyuge, suegros, hijastros, cuñados, abuelos del cónyuge, entre otros definidos por la ley y el Código Civil.</p>
+</div><p>o	Parentesco civil hasta primer grado: adopción.</p>
+</div><p>3.	Documentación requerida: La persona trabajadora deberá presentar soporte expedido por la autoridad competente (por ejemplo, registro civil de defunción) dentro de los treinta (30) días siguientes a la ocurrencia del fallecimiento.</p>
+</div><p>4.	Permisos para entierro de compañeros de trabajo: LA FAMILIA CAFE S.A.S podrá conceder permisos para asistir al entierro de compañeros de trabajo, hasta un porcentaje máximo (por ejemplo, el 10 % de la planta en cada área o sede), garantizando al mismo tiempo la continuidad del servicio.</p>
+</div><p>5.	Avisos y otros permisos relacionados: Para otros permisos como sufragio, desempeño de cargos oficiales transitorios, concurrencia a servicios médicos u otras licencias legales, el aviso deberá darse con la anticipación que las circunstancias permitan, y el tiempo empleado podrá ser compensado o descontado solo cuando la ley lo permita y no se trate de licencias expresamente remuneradas.</p>
+</div></section><section id="capitulo-7" style="padding-top: 20px; border-top: 1px solid #ccc;"><h2>Capítulo IX: </h2><p>SERVICIO MÉDICO, RIESGOS LABORALES Y SISTEMA DE GESTIÓN DE SEGURIDAD Y SALUD EN EL TRABAJO – SG-SST</p>
+</div><h4 id="articulo-49">Artículo 49. Implementación del Sistema de Gestión de Seguridad y Salud en el Trabajo – SG-SST.</h4>
+<div class="articulo-content"><p>En LA FAMILIA CAFÉ S.A.S. implementamos y mantenemos un Sistema de Gestión de Seguridad y Salud en el Trabajo – SG-SST acorde con la normatividad vigente, en especial el Decreto 1072 de 2015 (Libro 2, Parte 2, Título 4, Capítulo 6), la Ley 1562 de 2012, la Resolución 0312 de 2019 sobre estándares mínimos del SG-SST y la Decisión Andina 584 de 2004 – Instrumento Andino de Seguridad y Salud en el Trabajo.</p>
+</div><p>Nuestro SG-SST se adapta a la realidad de nuestra empresa, cuya actividad principal es la compra de café a mayoristas y la coordinación de su exportación desde Cali hacia puertos marítimos y clientes en el exterior, con un equipo de trabajo principalmente administrativo que realiza labores de oficina, teletrabajo, visitas a proveedores, clientes, operadores logísticos, puertos y demás aliados de la cadena.</p>
+</div><p>Mientras la empresa cuente con menos de diez (10) trabajadores, aplicaremos los estándares mínimos y figuras de participación previstos para este tamaño empresarial (por ejemplo, la figura de vigía de seguridad y salud en el trabajo). Una vez superemos este número de trabajadores, adoptaremos de manera automática las obligaciones propias de empresas de diez (10) o más trabajadores, incluyendo la conformación del COPASST y la actualización integral de nuestro SG-SST conforme a la Resolución 0312 de 2019 y normas que la modifiquen o sustituyan.</p>
+</div><p>________________________________________</p>
+</div><p>Política de Seguridad y Salud en el Trabajo</p>
+</div><h4 id="articulo-50">Artículo 50. Política de Seguridad y Salud en el Trabajo.</h4>
+<div class="articulo-content"><p>En LA FAMILIA CAFÉ S.A.S. entendemos que la seguridad y la salud en el trabajo son condiciones indispensables para garantizar la continuidad de nuestro negocio de exportación de café y la confianza de nuestros clientes, proveedores y aliados logísticos. Por ello, asumimos el compromiso de:</p>
+</div><p>1.	Proteger la vida, la integridad física, mental y social de todas las personas que trabajan con nosotros, en especial en actividades de oficina, trabajo remoto, visitas comerciales, viajes a puertos y reuniones con proveedores y operadores logísticos.</p>
+</div><p>2.	Identificar, evaluar y controlar los peligros y riesgos derivados de nuestra actividad, incluyendo riesgos ergonómicos, psicosociales, de seguridad vial, de fatiga por viajes y desplazamientos, así como los propios de la interacción con terceros de la cadena logística.</p>
+</div><p>3.	Cumplir estrictamente la normatividad en Seguridad y Salud en el Trabajo y en riesgos laborales, incluyendo los estándares mínimos definidos por la Resolución 0312 de 2019 y las disposiciones de la Ley 1562 de 2012.</p>
+</div><p>4.	Integrar la gestión de riesgos laborales en todos nuestros procesos: negociación con proveedores, coordinación logística, visitas a clientes, manejo de información y toma de decisiones comerciales y administrativas.</p>
+</div><p>5.	Promover estilos de vida saludables, el equilibrio entre la vida laboral y personal, y un ambiente de trabajo respetuoso, libre de acoso y de consumo de alcohol y sustancias psicoactivas en el entorno laboral.</p>
+</div><p>Esta política es de obligatorio cumplimiento para todas las personas que trabajan en LA FAMILIA CAFÉ S.A.S., se documenta, comunica, se revisa al menos una vez al año y se actualiza cuando sea necesario.</p>
+</div><p>________________________________________</p>
+</div><p>Funciones de las personas trabajadoras en materia de Seguridad y Salud en el Trabajo</p>
+</div><h4 id="articulo-51">Artículo 51. Funciones y responsabilidades de las personas trabajadoras.</h4>
+<div class="articulo-content"><p>En LA FAMILIA CAFÉ S.A.S., cada trabajador asume las siguientes responsabilidades en materia de Seguridad y Salud en el Trabajo, en armonía con el artículo 2.2.4.6.10 del Decreto 1072 de 2015:</p>
+</div><p>1.	Conocer y cumplir la política de SST de nuestra empresa y las instrucciones, procedimientos y normas internas que derivan de nuestro SG-SST.</p>
+</div><p>2.	Cuidar de su propia salud física y mental, adoptando prácticas de trabajo seguras, pausas activas y hábitos saludables, especialmente en actividades de oficina, trabajo frente a pantallas, teletrabajo y desplazamientos.</p>
+</div><p>3.	Suministrar información veraz y completa sobre su estado de salud, antecedentes médicos y restricciones, particularmente cuando esta información sea relevante para su puesto de trabajo o para su seguridad en viajes y desplazamientos.</p>
+</div><p>4.	Reportar de manera inmediata a su jefe inmediato y/o al responsable del SG-SST cualquier incidente, accidente de trabajo, condición insegura, acto inseguro o situación que pueda afectar su seguridad, la de sus compañeros o la de terceros.</p>
+</div><p>5.	Participar activamente en las actividades de capacitación, inducción, reinducción y programas de promoción y prevención en SST que la empresa programe.</p>
+</div><p>6.	Usar adecuadamente los elementos de protección personal que se definan para actividades específicas (por ejemplo, visitas a plantas de proveedores, recorridos en puertos, inspecciones en bodegas de terceros), manteniéndolos en buen estado.</p>
+</div><p>7.	Mantener en orden y en condiciones seguras su puesto de trabajo, equipos de cómputo, archivos y demás recursos a su cargo.</p>
+</div><p>8.	Participar en los mecanismos de representación y participación, como la elección del vigía de SST o del COPASST cuando lleguemos al número de trabajadores que exige su conformación, así como en las elecciones del Comité de Convivencia Laboral, de conformidad con la normatividad vigente.</p>
+</div><p>________________________________________</p>
+</div><p>Obligaciones del empleador en materia de Seguridad y Salud en el Trabajo</p>
+</div><h4 id="articulo-52">Artículo 52. Obligaciones de LA FAMILIA CAFÉ S.A.S. como empleador.</h4>
+<div class="articulo-content"><p>Como empleador, en LA FAMILIA CAFÉ S.A.S. asumimos las obligaciones previstas en la Ley 1562 de 2012, el Decreto 1072 de 2015 y la Resolución 0312 de 2019, entre otras normas, y en particular nos comprometemos a:</p>
+</div><p>1.	Definir, documentar y firmar la política de SST, difundiéndola a todo el personal y utilizándola como marco para el establecimiento y revisión de los objetivos del SG-SST.</p>
+</div><p>2.	Asignar y comunicar responsabilidades en SST en todos los niveles de la empresa, dejando claridad sobre las funciones del representante de la alta dirección en SST, del responsable del SG-SST, de los jefes de área y de los trabajadores.</p>
+</div><p>3.	Rendir cuentas internamente sobre el desempeño del SG-SST al menos una vez al año, documentando resultados, avances, desviaciones y planes de mejora.</p>
+</div><p>4.	Definir y asignar los recursos financieros, humanos y técnicos necesarios para la implementación, mantenimiento y mejora continua del SG-SST, incluyendo contratación de servicios especializados en medicina del trabajo y seguridad y salud en el trabajo cuando se requiera.</p>
+</div><p>5.	Identificar los peligros, evaluar y valorar los riesgos asociados a nuestras actividades administrativas y de coordinación logística (oficina, trabajo remoto, visitas comerciales, viajes a puertos y reuniones con terceros) y establecer controles eficaces.</p>
+</div><p>6.	Diseñar y ejecutar el plan anual de trabajo del SG-SST, con metas, cronogramas, responsables y recursos definidos, incluyendo actividades de capacitación, inspecciones de seguridad, gestión de riesgos psicosociales y ergonomía en puestos de oficina.</p>
+</div><p>7.	Garantizar el cumplimiento de la normatividad en riesgos laborales, así como de los estándares mínimos de la Resolución 0312 de 2019.</p>
+</div><p>8.	Promover la participación de los trabajadores en la identificación de peligros, presentación de quejas y sugerencias en SST y en los espacios de comités o vigía de SST.</p>
+</div><p>9.	Articular la gestión de SST con nuestros aliados y contratistas (transportadores, agencias de aduana, operadores logísticos, almacenadoras, etc.), a través de cláusulas contractuales, intercambio de información y coordinación de actividades preventivas cuando sea necesario.</p>
+</div><p>10.	Garantizar la formación y competencia del personal responsable de SST, ya sea interno o externo, de acuerdo con los perfiles y requisitos definidos en la normatividad vigente.</p>
+</div><p>11.	Integrar la SST a los demás sistemas de gestión de nuestra empresa, de forma que se tenga en cuenta en la planificación estratégica, la contratación de personal, la selección de proveedores y la toma de decisiones comerciales.</p>
+</div><p>________________________________________</p>
+</div><p>Servicio médico, reporte de enfermedad y accidentes de trabajo</p>
+</div><h4 id="articulo-53">Artículo 53. Servicios médicos y atención en salud.</h4>
+<div class="articulo-content"><p>Los servicios médicos requeridos por las personas que trabajan en LA FAMILIA CAFÉ S.A.S. serán prestados a través de las EPS y de la Administradora de Riesgos Laborales – ARL a las que se encuentren afiliadas, de conformidad con el Sistema General de Seguridad Social en Salud y el Sistema General de Riesgos Laborales.</p>
+</div><h4 id="articulo-54">Artículo 54. Aviso de enfermedad y valoración médica.</h4>
+<div class="articulo-content"><p>Cuando un trabajador se sienta enfermo o presente síntomas que puedan afectar su capacidad de trabajo, deberá informarlo dentro del mismo día a su jefe inmediato o al área encargada de Talento Humano, para que gestionemos la valoración médica por la EPS o el médico laboral cuando corresponda.</p>
+</div><p>Si el trabajador no informa oportunamente y no gestiona la valoración, su inasistencia podrá considerarse injustificada, salvo que demuestre que existió una imposibilidad real para hacerlo.</p>
+</div><h4 id="articulo-56">Artículo 56. Cumplimiento de tratamientos y recomendaciones médicas.</h4>
+<div class="articulo-content"><p>Los trabajadores deberán seguir las instrucciones y tratamientos ordenados por el médico tratante, así como asistir a los exámenes ocupacionales, valoraciones de reubicación o seguimiento que la empresa programe dentro del SG-SST.</p>
+</div><p>La negativa injustificada a cumplir con estos tratamientos o exámenes puede afectar el reconocimiento de prestaciones económicas derivadas de incapacidades e incluso considerarse, en casos graves, como incumplimiento de obligaciones laborales.</p>
+</div><h4 id="articulo-57">Artículo 57. Cumplimiento de medidas de seguridad e higiene.</h4>
+<div class="articulo-content"><p>Todas las personas que trabajan en LA FAMILIA CAFÉ S.A.S. deben cumplir las medidas de seguridad e higiene definidas en nuestro SG-SST, incluyendo:</p>
+</div><ul><li>Reglas de ergonomía y pausas activas en puestos de trabajo administrativos.</li><ul><li>Lineamientos de seguridad en desplazamientos (reuniones externas, visitas a proveedores, viajes a puertos).</li><ul><li>Reglas de uso adecuado de oficinas, equipos, archivos y dispositivos electrónicos.</li><p>El incumplimiento grave y reiterado de las normas de seguridad y salud en el trabajo constituye causal de medidas disciplinarias y, en casos extremos, de terminación del contrato de trabajo por justa causa, respetando siempre el debido proceso.</p>
+</div><h4 id="articulo-58">Artículo 58. Atención inicial de accidentes de trabajo.</h4>
+<div class="articulo-content"><p>En caso de accidente de trabajo, la persona que presencie el hecho o el jefe inmediato gestionará de forma inmediata la prestación de primeros auxilios, el traslado a la IPS correspondiente y la notificación interna al responsable del SG-SST, para iniciar el reporte a la ARL y la investigación de causas.</p>
+</div><h4 id="articulo-59">Artículo 59. Aviso de accidente no mortal.</h4>
+<div class="articulo-content"><p>Todo accidente de trabajo, así parezca leve, debe ser reportado inmediatamente por el trabajador a su jefe inmediato o al área de Talento Humano, para que podamos gestionar la atención, el reporte y el seguimiento de la incapacidad o de las recomendaciones de reubicación que se generen.</p>
+</div><h4 id="articulo-60">Artículo 60. Registro y seguimiento estadístico.</h4>
+<div class="articulo-content"><p>En LA FAMILIA CAFÉ S.A.S. llevaremos un registro y estadísticas de los accidentes de trabajo, incidentes y enfermedades laborales, con el fin de analizar frecuencia, gravedad y tendencias, e implementar medidas de mejora continua en nuestro SG-SST, en armonía con las obligaciones del Sistema General de Riesgos Laborales.</p>
+</div><h4 id="articulo-61">Artículo 61. Reporte a la ARL y a la EPS.</h4>
+<div class="articulo-content"><p>Todo accidente de trabajo o sospecha de enfermedad laboral será reportado por la empresa a la ARL y a la EPS dentro de los plazos establecidos por la normativa vigente, sin perjuicio de la obligación de investigar los eventos de conformidad con la Resolución 1401 de 2007 y disposiciones que la reglamenten o sustituyan.</p>
+</div><p>________________________________________</p>
+</div><p>Evaluaciones médicas ocupacionales y pruebas de alcohol, alcoholimetría y sustancias psicoactivas</p>
+</div><h4 id="articulo-62">Artículo 62. Evaluaciones médicas ocupacionales.</h4>
+<div class="articulo-content"><p>En LA FAMILIA CAFÉ S.A.S. realizamos las evaluaciones médicas ocupacionales de ingreso, periódicas, de egreso y demás que establezca la normatividad, con fundamento en la Resolución 1843 de 2025 del Ministerio del Trabajo y en las disposiciones que regulan el manejo de la historia clínica laboral y la vigilancia de la salud de los trabajadores.</p>
+</div><p>Estas evaluaciones tienen por objeto:</p>
+</div><p>1.	Determinar la aptitud médica para el cargo, considerando los riesgos identificados en la matriz de peligros.</p>
+</div><p>2.	Hacer seguimiento a la salud de los trabajadores frente a los riesgos derivados de la actividad (riesgos ergonómicos, visuales, psicosociales, de movilidad y de desplazamiento).</p>
+</div><p>3.	Recomendar restricciones, reubicaciones o medidas de adaptación del puesto de trabajo cuando sea necesario.</p>
+</div><p>Las evaluaciones médicas ocupacionales son de cargo exclusivo de la empresa, se realizan a través de prestadores de servicios de SST debidamente habilitados y su resultado se maneja con estricta reserva, conforme a la Ley 1581 de 2012 sobre protección de datos personales.</p>
+</div><h4 id="articulo-63">Artículo 63. Programa de prevención del consumo de alcohol y sustancias psicoactivas.</h4>
+<div class="articulo-content"><p>En LA FAMILIA CAFÉ S.A.S. implementamos un programa específico de prevención y control del consumo de alcohol, sustancias psicoactivas y medicamentos que alteren la capacidad de respuesta, como parte integrante de nuestro SG-SST, en cumplimiento de la Resolución 1843 de 2025.</p>
+</div><p>Este programa tiene un enfoque netamente preventivo y de salud pública, no punitivo, y se orienta a evitar accidentes de trabajo, incidentes críticos o errores graves en actividades que:</p>
+</div><ul><li>Implican desplazamientos por carretera hacia puertos, clientes o proveedores.</li><ul><li>Suponen la representación comercial de la empresa frente a clientes estratégicos.</li><ul><li>Involucran decisiones críticas para la seguridad de terceros o para la continuidad de la operación.</li><h4 id="articulo-64">Artículo 64. Pruebas de alcoholemia, alcoholimetría y sustancias psicoactivas.</h4>
+<div class="articulo-content"><p>En desarrollo del programa anterior y conforme al artículo 24 de la Resolución 1843 de 2025, las pruebas de alcoholemia, alcoholimetría y detección de sustancias psicoactivas solo se aplicarán en relación con actividades que representen un riesgo para terceros o para la operación, deberán estar justificadas en la matriz de peligros y documentadas dentro del SG-SST.</p>
+</div><p>1.	Consentimiento informado: Antes de la realización de cualquier prueba, el trabajador será informado sobre su finalidad, alcance y manejo de los resultados, y se solicitará su consentimiento informado por escrito, sin que ello implique renuncia a sus derechos fundamentales.</p>
+</div><p>2.	Personal autorizado: La toma de pruebas de alcoholimetría, alcoholemia y sustancias psicoactivas será realizada únicamente por personal médico con licencia vigente en Seguridad y Salud en el Trabajo, de acuerdo con lo exigido por la Resolución 1843 de 2025. Ningún otro funcionario de la empresa está autorizado para tomar estas pruebas.</p>
+</div><p>3.	Confidencialidad y manejo de datos:</p>
+</div><p>Los resultados se manejarán con reserva estricta, serán parte de la historia clínica ocupacional y se tratarán como datos sensibles de salud, en cumplimiento de la Ley 1581 de 2012 y de la misma Resolución 1843 de 2025.</p>
+</div><h4 id="articulo-65">Artículo 65. Procedimiento en caso de resultado positivo.</h4>
+<div class="articulo-content"><p>Cuando, de acuerdo con la Resolución 1843 de 2025, una prueba aplicada en un cargo crítico arroje un resultado positivo:</p>
+</div><p>1.	El trabajador será retirado de manera inmediata de la actividad que pueda comprometer su seguridad o la de terceros.</p>
+</div><p>2.	Será remitido a valoración médica ocupacional para determinar su aptitud laboral, la necesidad de restricciones temporales o reubicación y la ruta de atención en salud, en armonía con la Ley 1566 de 2012 sobre consumo de sustancias psicoactivas como problema de salud pública.</p>
+</div><p>3.	El resultado no se usará automáticamente como sanción disciplinaria; cualquier medida disciplinaria deberá estar soportada en el diagnóstico médico, en la reiteración de la conducta, en las obligaciones contractuales, en los protocolos internos y en el respeto al debido proceso y a los derechos fundamentales del trabajador.</p>
+</div><h4 id="articulo-66">Artículo 66. Enfoque preventivo y remisión a tratamiento.</h4>
+<div class="articulo-content"><p>El objetivo de estas pruebas y del programa de prevención es proteger la vida y la salud de los trabajadores y de terceros, así como la continuidad de la operación de exportación de café de nuestra empresa. Por ello:</p>
+</div><ul><li>Promoveremos campañas de educación y sensibilización sobre los riesgos del consumo de alcohol y drogas en el trabajo.</li><ul><li>Facilitaremos, cuando sea pertinente, el acceso del trabajador a programas de tratamiento, rehabilitación o acompañamiento psicológico a través del sistema de salud.</li><ul><li>Fomentaremos una cultura de confianza y reporte temprano, evitando la estigmatización de las personas que presenten problemas de consumo.</li><h4 id="articulo-67">Artículo 67. Observancia de la normatividad en riesgos laborales.</h4>
+<div class="articulo-content"><p>En todo lo relacionado con este capítulo, LA FAMILIA CAFÉ S.A.S. y sus trabajadores nos sometemos a las disposiciones del Código Sustantivo del Trabajo, la Ley 1562 de 2012, el Decreto 1072 de 2015, la Resolución 0312 de 2019, la Resolución 1016 de 1989, la Resolución 1843 de 2025 y las demás normas que regulan el Sistema General de Riesgos Laborales y la vigilancia de la salud de los trabajadores.</p>
+</div><p>POLÍTICA Y PROTOCOLO DE PRUEBAS ESPECÍFICAS</p>
+</div><p>(embarazo, VIH, alcoholemia, alcoholimetría y sustancias psicoactivas)</p>
+</div><h4 id="articulo-68">Artículo 68. Objetivo del protocolo</h4>
+<div class="articulo-content"><p>En LA FAMILIA CAFÉ S.A.S. establecemos este protocolo para regular la aplicación de pruebas específicas de embarazo, VIH, alcoholemia, alcoholimetría y sustancias psicoactivas, garantizando que su uso sea justificado, ético, legal y respetuoso de los derechos fundamentales de aspirantes, trabajadores y contratistas, de conformidad con la Resolución 1843 de 2025, la Ley 1581 de 2012, la Constitución Política y la jurisprudencia de la Corte Constitucional en materia de no discriminación.</p>
+</div><p>________________________________________</p>
+</div><h4 id="articulo-69">Artículo 69. Alcance</h4>
+<div class="articulo-content"><p>Este protocolo aplica a:</p>
+</div><p>1.	Aspirantes a cargos y trabajadores propios que, de manera excepcional, desempeñen funciones que impliquen riesgo relevante para terceros o para la operación (por ejemplo, desplazamientos frecuentes por carretera, visitas técnicas a instalaciones de aliados, coordinación en terreno de operaciones logísticas).</p>
+</div><p>2.	Contratistas o terceros que desarrollen para nuestra empresa actividades catalogadas como de alto riesgo en la matriz de peligros del SG-SST (conducción de vehículos, operación de equipos, manejo de carga o actividades en instalaciones de terceros), cuando así se haya pactado en los contratos y en coordinación con sus respectivos empleadores.</p>
+</div><p>En todo caso, la aplicación de pruebas deberá estar previamente soportada en la matriz de peligros y en el SG-SST, y documentada en los programas específicos de prevención de consumo de alcohol y drogas y de vigilancia de la salud.</p>
+</div><p>________________________________________</p>
+</div><h4 id="articulo-70">Artículo 70. Principios generales</h4>
+<div class="articulo-content"><p>En LA FAMILIA CAFÉ S.A.S. este protocolo se rige por los siguientes principios:</p>
+</div><p>1.	Prohibición general de discriminación: No exigimos pruebas de embarazo ni de VIH como requisito general de ingreso o permanencia. Cualquier práctica discriminatoria por embarazo, potencial de embarazo, estado serológico o condición de salud está prohibida y contraría la Constitución y la jurisprudencia de la Corte Constitucional.</p>
+</div><p>2.	Justificación técnica: Toda prueba deberá estar expresamente justificada en la matriz de peligros, en la evaluación de riesgos del cargo y en el programa de SST que la soporte, en armonía con la Resolución 1843 de 2025.</p>
+</div><p>3.	Consentimiento informado: Antes de cualquier prueba, la persona aspirante o trabajadora debe firmar un formato de consentimiento informado, donde se expliquen finalidad, alcance, riesgos, tratamiento de datos y derecho a negarse, conforme a la normatividad de protección de datos personales.</p>
+</div><p>4.	Confidencialidad estricta: Los resultados de las pruebas son información sensible de salud. A LA FAMILIA CAFÉ S.A.S. solo se comunicará el concepto de aptitud o restricciones para el cargo, mas no diagnósticos clínicos detallados.</p>
+</div><p>5.	Asunción de costos: Las pruebas que se consideren justificadas y se realicen con fundamento en este protocolo serán asumidas económicamente por la empresa.</p>
+</div><p>6.	Cadena de custodia y validez técnica: Se garantizará la trazabilidad, autenticidad y confiabilidad de las muestras y resultados, de acuerdo con los lineamientos técnicos de la Resolución 1843 de 2025 y con las buenas prácticas de laboratorio.</p>
+</div><p>7.	Enfoque preventivo: El propósito principal de las pruebas es la prevención de accidentes e incidentes y la promoción del bienestar del trabajador, no la persecución ni estigmatización de personas con problemas de consumo o de salud.</p>
+</div><p>________________________________________</p>
+</div><h4 id="articulo-71">Artículo 71. Procedimientos según tipo de prueba</h4>
+<div class="articulo-content"><p>1.	Prueba de embarazo</p>
+</div><p>o	No es obligatoria como requisito general de ingreso o permanencia.</p>
+</div><p>o	Solo podrá considerarse cuando, de manera excepcional, el cargo implique exposición a agentes, condiciones ambientales o tareas que puedan representar riesgo comprobado para la gestación, según concepto del médico especialista en SST.</p>
+</div><p>o	En estos casos se requerirá:</p>
+</div><p>	Consentimiento informado de la trabajadora.</p>
+</div><p>	Posibilidad de elección del laboratorio o IPS habilitada.</p>
+</div><p>	Soporte de justificación técnica emitido por médico ocupacional.</p>
+</div><p>2.	Prueba de VIH</p>
+</div><p>o	Está prohibida como requisito general para selección o permanencia.</p>
+</div><p>o	Solo podría plantearse en escenarios de exposición biológica excepcionalmente calificados por la autoridad sanitaria y el médico ocupacional, con consentimiento informado y en estricto respeto de la confidencialidad y la no discriminación.</p>
+</div><p>3.	Pruebas de alcoholemia, alcoholimetría y sustancias psicoactivas</p>
+</div><p>o	Podrán aplicarse únicamente a personas que desempeñen actividades críticas para la seguridad, definidas en el SG-SST (por ejemplo, conducción contractual, acompañamiento en vehículos, coordinaciones en terreno con impacto directo en la seguridad de terceros).</p>
+</div><p>o	Se podrán realizar de forma:</p>
+</div><p>	Programada, de acuerdo con el programa de prevención de consumo.</p>
+</div><p>	Aleatoria, si así se justifica en el programa.</p>
+</div><p>	Por sospecha razonable, basada en signos evidentes durante la jornada.</p>
+</div><p>	Posterior a un incidente o accidente en el que exista presunción de influencia de alcohol o drogas.</p>
+</div><p>o	Deberán garantizarse siempre:</p>
+</div><p>	Realización por profesional médico con licencia vigente en SST, o IPS habilitada.</p>
+</div><p>	Respeto de la cadena de custodia y protocolos técnicos.</p>
+</div><p>	Manejo confidencial de la información.</p>
+</div><p>En caso de resultados positivos, además de la valoración médica y de las medidas preventivas y de tratamiento que se recomienden, cualquier actuación disciplinaria deberá ajustarse a este Reglamento Interno, a la normatividad laboral vigente y al debido proceso.</p>
+</div><p>________________________________________</p>
+</div><h4 id="articulo-72">Artículo 72. Responsabilidades</h4>
+<div class="articulo-content"><p>En LA FAMILIA CAFÉ S.A.S. las responsabilidades en la aplicación de este protocolo se distribuyen así:</p>
+</div><p>1.	Talento Humano</p>
+</div><p>o	Verificar que la prueba tenga justificación técnica y respaldo en el SG-SST.</p>
+</div><p>o	Gestionar y custodiar los documentos de consentimiento, conceptos de aptitud y demás soportes, garantizando su confidencialidad.</p>
+</div><p>2.	Médico evaluador / IPS de SST</p>
+</div><p>o	Obtener el consentimiento informado.</p>
+</div><p>o	Aplicar las pruebas conforme a los lineamientos de la Resolución 1843 de 2025.</p>
+</div><p>o	Emitir concepto ocupacional de aptitud y restricciones, sin revelar diagnósticos clínicos detallados a la empresa.</p>
+</div><p>3.	Jefes de área y responsables de procesos</p>
+</div><p>o	Solicitar pruebas únicamente cuando exista soporte en la matriz de peligros y en los programas del SG-SST.</p>
+</div><p>o	Cooperar con la implementación de las medidas de prevención y seguimiento que se deriven de los conceptos médicos.</p>
+</div><p>4.	Personas trabajadoras y aspirantes</p>
+</div><p>o	Colaborar de buena fe con los procesos de evaluación ocupacional.</p>
+</div><p>o	Ejercer su derecho a ser informadas y a otorgar o negar su consentimiento, dentro del marco que la normatividad permita.</p>
+</div><p>o	Cumplir las recomendaciones médicas y participar en las acciones preventivas que promueva la empresa.</p>
+</div></section><section id="capitulo-8" style="padding-top: 20px; border-top: 1px solid #ccc;"><h2>Capítulo X: </h2><h5>PRESCRIPCIONES DE ORDEN</h5><h4 id="articulo-73">Artículo 73. Deberes generales de las personas trabajadoras</h4>
+<div class="articulo-content"><p>En LA FAMILIA CAFÉ S.A.S., además de las obligaciones previstas en el artículo 58 del Código Sustantivo del Trabajo, todas las personas que trabajan con nosotros asumen los siguientes deberes en el marco de nuestra actividad de compra y exportación de café:</p>
+</div><p>1. Relaciones interpersonales y clima laboral</p>
+</div><p>a) Mantener relaciones respetuosas con sus superiores jerárquicos, atendiendo las instrucciones que se impartan dentro del marco de la ley, de este Reglamento Interno y de las políticas corporativas.</p>
+</div><p>b) Tratar con respeto y cordialidad a sus compañeros de trabajo, clientes, proveedores y demás aliados estratégicos, contribuyendo a un ambiente laboral armonioso, libre de violencia, acoso, discriminación y maltrato.</p>
+</div><p>c) Procurar la mayor armonía posible en las relaciones personales y en la ejecución de sus labores, facilitando el trabajo en equipo y la colaboración entre áreas (comercial, compras, logística, contabilidad, calidad, etc.).</p>
+</div><p>2. Conducta, ética y colaboración</p>
+</div><p>a) Guardar buena conducta dentro y fuera de los espacios de trabajo cuando actúan en representación de LA FAMILIA CAFÉ S.A.S., observando los principios de honestidad, lealtad y buena fe.</p>
+</div><p>b) Ejecutar las actividades asignadas con diligencia, calidad y oportunidad, aplicando sus conocimientos y experiencia, y comunicando a su jefe inmediato cualquier dificultad que pueda afectar el cumplimiento de sus responsabilidades.</p>
+</div><p>c) Recibir y aceptar las órdenes, instrucciones y correcciones relacionadas con el trabajo, manteniendo una actitud receptiva y orientada a la mejora continua.</p>
+</div><p>d) Colaborar en casos de siniestro, emergencia o riesgo inminente que pueda afectar a las personas, la información, los bienes de la empresa o de nuestros aliados (por ejemplo, durante visitas a proveedores, agencias de aduana o puertos).</p>
+</div><p>3. Confidencialidad y manejo de información</p>
+</div><p>a) Guardar estricta reserva sobre la información confidencial de LA FAMILIA CAFÉ S.A.S., en especial la relacionada con proveedores, clientes, condiciones comerciales, negociaciones de exportación, precios, logística, estrategias de mercado y demás datos sensibles, salvo autorización expresa de la gerencia o de acuerdo con la ley.</p>
+</div><p>b) Utilizar la información y los sistemas de la empresa únicamente para fines laborales, absteniéndose de divulgarla o utilizarla en beneficio propio o de terceros.</p>
+</div><p>4. Seguridad, permanencia y cumplimiento de procedimientos</p>
+</div><p>a) Observar rigurosamente las medidas de seguridad y salud en el trabajo definidas en nuestro SG-SST, tanto en las labores de oficina como en actividades de visitas a proveedores, clientes, operadores logísticos o puertos.</p>
+</div><p>b) Permanecer durante la jornada de trabajo en el sitio o modalidad autorizada (oficina, teletrabajo, visita externa), salvo autorización de su jefe inmediato o causa justificada.</p>
+</div><p>c) Utilizar adecuadamente los elementos de protección personal que se definan para actividades específicas (por ejemplo, visitas a instalaciones de terceros donde sean exigidos) y reportar de inmediato cualquier daño o pérdida.</p>
+</div><p>d) Observar las medidas preventivas e instrucciones para evitar accidentes de trabajo, enfermedades laborales, incidentes de seguridad de la información y riesgos asociados a desplazamientos.</p>
+</div><p>5. Funciones, calidad y sistemas de gestión</p>
+</div><p>a) Cumplir las funciones asignadas en el perfil de cargo y en el manual de funciones de LA FAMILIA CAFÉ S.A.S., informando oportunamente cuando identifique oportunidades de mejora en procesos, formatos o procedimientos.</p>
+</div><p>b) Respetar y aplicar los lineamientos del Sistema de Gestión de Seguridad y Salud en el Trabajo y de los sistemas de gestión que adopte la empresa (calidad, seguridad de la información u otros), en especial aquellos que impactan la trazabilidad y calidad del café que exportamos.</p>
+</div><p>c) Comunicar oportunamente a la gerencia o al jefe inmediato cualquier observación que considere útil para evitar daños económicos, reputacionales o contractuales a la empresa.</p>
+</div><p>________________________________________</p>
+</div></section><section id="capitulo-9" style="padding-top: 20px; border-top: 1px solid #ccc;"><h2>Capítulo XI: </h2><p>ORDEN JERÁRQUICO</p>
+</div><h4 id="articulo-74">Artículo 74. Orden jerárquico y organigrama</h4>
+<div class="articulo-content"><p>En LA FAMILIA CAFÉ S.A.S., el orden jerárquico de los cargos existentes se encuentra definido en nuestro organigrama organizacional, el cual se adopta como anexo de este Reglamento Interno y hace parte integral del mismo.</p>
+</div><p>1.	Estructura organizacional: La estructura jerárquica establece claramente las líneas de autoridad, responsabilidad y comunicación entre la gerencia, las áreas administrativas, comerciales, financieras y de apoyo, facilitando la toma de decisiones y el flujo adecuado de la información en todo el proceso de compra y exportación de café.</p>
+</div><p>2.	Respeto al orden jerárquico: Las personas trabajadoras deben dirigir sus solicitudes, reportes, inquietudes y propuestas preferiblemente a través de la línea de mando definida, salvo casos de denuncia de acoso laboral, acoso sexual, discriminación u otras situaciones en las que la normatividad vigente faculta el uso de canales directos ante el Comité de Convivencia Laboral, Talento Humano, gerencia o autoridades competentes.</p>
+</div><p>3.	Actualización del organigrama: El organigrama se actualizará cada vez que se modifique la estructura organizacional (creación, cambio o eliminación de cargos o áreas), y la versión vigente será divulgada a todo el personal por los medios institucionales que la empresa disponga.</p>
+</div></section><section id="capitulo-10" style="padding-top: 20px; border-top: 1px solid #ccc;"><h2>Capítulo XII: </h2><p>LABORES PROHIBIDAS PARA MENORES DE 18 AÑOS</p>
+</div><h4 id="articulo-75">Artículo 75. Prohibición de vinculación a labores peligrosas para menores de edad</h4>
+<div class="articulo-content"><p>En LA FAMILIA CAFÉ S.A.S. respetamos de manera estricta las disposiciones del Código de la Infancia y la Adolescencia (Ley 1098 de 2006), el Convenio 182 de la OIT sobre las peores formas de trabajo infantil, la Resolución 1796 de 2018 del Ministerio del Trabajo y demás normas relacionadas con la protección del menor trabajador.</p>
+</div><p>Por la naturaleza principalmente administrativa y comercial de nuestra empresa, no vinculamos a menores de dieciocho (18) años para actividades que impliquen exposición a riesgos físicos, químicos, ergonómicos o locativos catalogados como peligrosos o de alto riesgo por la normatividad vigente.</p>
+</div><p>En consecuencia, los menores de 18 años solo podrán realizar labores estrictamente administrativas, de apoyo formativo o de aprendizaje, siempre que cuenten con autorización de autoridad competente y de sus representantes legales, y que se garantice que:</p>
+</div><p>1.	No se exponen a ruido, vibraciones, temperaturas extremas, radiaciones o sustancias peligrosas.</p>
+</div><p>2.	No realizan manipulación de cargas fuera de los límites permitidos para adolescentes, incluso cuando se trate de archivos, cajas de muestras de café u otros elementos de oficina.</p>
+</div><p>3.	No realizan actividades en alturas, en espacios confinados, en zonas de riesgo locativo ni en lugares que impliquen peligro para su integridad física.</p>
+</div><p>4.	No desarrollan actividades de construcción, mantenimiento estructural, operación de maquinaria, equipos industriales ni labores propias de bodegas o centros de acopio de terceros.</p>
+</div><h5>Parágrafo 1. Límites de manipulación de cargas para adolescentes</h5><p>En caso de que, dentro de actividades de apoyo administrativo, un adolescente autorizado requiera manipular ocasionalmente elementos físicos (por ejemplo, archivos, cajas de documentos, muestras de producto), se respetarán como límite máximo las cargas establecidos en la normatividad vigente para adolescentes entre 15 y menos de 18 años, sin que estos límites se consideren autorizaciones para tareas de cargue y descargue permanentes:</p>
+</div><ul><li>Levantamiento intermitente: hasta 15 kg para hombres y 8 kg para mujeres.</li><ul><li>Levantamiento continuo: hasta 12 kg para hombres y 6 kg para mujeres.</li><p>En todo caso, procuraremos que la manipulación de cargas por menores de edad sea excepcional, de bajo peso y de corta duración, privilegiando siempre ayudas mecánicas, apoyo de adultos y distribución adecuada de tareas.</p>
+</div><h5>Parágrafo 2. Trabajo nocturno de menores de edad</h5><p>En LA FAMILIA CAFÉ S.A.S. está prohibido el trabajo nocturno para menores de edad. De manera excepcional, y de conformidad con la Ley 1098 de 2006, los adolescentes mayores de dieciséis (16) y menores de dieciocho (18) años solo podrán ser autorizados para trabajar hasta las ocho (8:00 p.m.), siempre que:</p>
+</div><p>1.	No se afecte su asistencia regular a un centro educativo.</p>
+</div><p>2.	No se comprometa su salud física o mental ni su desarrollo integral.</p>
+</div><p>3.	Exista autorización de las autoridades competentes y de sus representantes legales.</p>
+</div><p>________________________________________</p>
+</div></section><section id="capitulo-11" style="padding-top: 20px; border-top: 1px solid #ccc;"><h2>Capítulo XIII: </h2><h5>OBLIGACIONES ESPECIALES DEL EMPLEADOR Y DE LOS TRABAJADORES</h5><p>Sección 1</p>
+</div><p>Obligaciones especiales del empleador</p>
+</div><h4 id="articulo-76">Artículo 76. Obligaciones especiales de LA FAMILIA CAFÉ S.A.S. como empleador</h4>
+<div class="articulo-content"><p>En LA FAMILIA CAFÉ S.A.S., como empleador, asumimos las obligaciones previstas en el artículo 57 del Código Sustantivo del Trabajo y demás normas laborales vigentes, adaptadas a nuestra actividad de compra y exportación de café. Entre otras, nos comprometemos a:</p>
+</div><p>1.	Provisión de medios de trabajo Poner a disposición de nuestros trabajadores los equipos, herramientas, programas informáticos, medios de comunicación y demás elementos necesarios y adecuados para el desempeño de sus funciones administrativas, comerciales, financieras y de coordinación logística.</p>
+</div><p>2.	Seguridad y salud en el trabajo Procurar a nuestros trabajadores condiciones de trabajo seguras, implementando el Sistema de Gestión de Seguridad y Salud en el Trabajo – SG-SST, suministrando los elementos de protección personal que se requieran en visitas a proveedores, puertos, operadores logísticos u otros escenarios externos, y garantizando la prestación de primeros auxilios y la atención oportuna en caso de accidente o enfermedad.</p>
+</div><p>3.	Dotación y elementos de trabajo Suministrar la dotación de calzado y vestido de labor en los términos del artículo 230 del Código Sustantivo del Trabajo y demás normas aplicables, cuando haya lugar a ello.</p>
+</div><p>4.	Cumplimiento de obligaciones salariales y prestacionales Pagar la remuneración pactada en las condiciones, períodos y lugares convenidos, cancelar oportunamente las prestaciones sociales y realizar correctamente los aportes a seguridad social y parafiscales.</p>
+</div><p>5.	Gastos de traslado cuando aplique Asumir los gastos razonables de traslado cuando para prestar el servicio solicitemos al trabajador cambiar de lugar de residencia, en los términos del Código Sustantivo del Trabajo, incluyendo, de ser el caso, los gastos correspondientes de sus familiares que convivan con él, conforme a lo acordado y a la normativa vigente.</p>
+</div><p>6.	Respeto a la dignidad humana y a los derechos fundamentales Guardar absoluto respeto por la dignidad personal de nuestros trabajadores, sus creencias, sentimientos, orientación sexual, identidad de género y demás condiciones protegidas, promoviendo un ambiente laboral libre de acoso, discriminación y violencia, de acuerdo con la Constitución Política, la Ley 1010 de 2006 y la Ley 1257 de 2008.</p>
+</div><p>7.	Licencias, permisos y certificaciones Conceder las licencias y permisos a que haya lugar en los términos de la ley y de este Reglamento Interno (maternidad, paternidad, luto, calamidad doméstica, citaciones judiciales, etc.), y expedir, al finalizar la relación laboral, las certificaciones sobre tiempo de servicio, naturaleza del cargo y salario devengado cuando el trabajador lo solicite.</p>
+</div><p>8.	Registros y controles obligatorios Llevar debidamente los registros de horas extras, descansos compensatorios, vacaciones, incapacidades, trabajadores menores (si los hubiera) y demás libros o sistemas de control exigidos por el Ministerio del Trabajo y demás autoridades competentes.</p>
+</div><p>9.	Protección a la maternidad y lactancia Conservar el puesto de las trabajadoras embarazadas, en licencia de maternidad o en descansos por lactancia, otorgar la licencia remunerada de dieciocho (18) semanas prevista en la Ley 1822 de 2017 y conceder los descansos por lactancia establecidos en el artículo 238 del Código Sustantivo del Trabajo.</p>
+</div><p>10.	Cumplimiento general y mantenimiento del orden Cumplir las disposiciones de este Reglamento Interno, mantener el orden, la moralidad y el respeto a las leyes dentro de la empresa y adoptar las medidas necesarias para garantizar un entorno laboral digno, seguro y respetuoso.</p>
+</div><p>________________________________________</p>
+</div><p>Sección 2</p>
+</div><p>Obligaciones de las personas trabajadoras</p>
+</div><h4 id="articulo-77">Artículo 77. Obligaciones generales de las personas trabajadoras</h4>
+<div class="articulo-content"><p>En LA FAMILIA CAFÉ S.A.S., nuestras personas trabajadoras tienen las obligaciones previstas en el artículo 58 del Código Sustantivo del Trabajo, además de las siguientes, adaptadas a nuestra realidad empresarial:</p>
+</div><p>1.	Ejecución personal del trabajo Realizar personalmente las labores en los términos pactados en el contrato, respetando los horarios, la modalidad de trabajo (presencial, remoto o mixto) y los objetivos del cargo.</p>
+</div><p>2.	Observancia del Reglamento Interno y órdenes legítimas Observar las disposiciones de este Reglamento Interno y acatar las órdenes e instrucciones que impartamos a través de la gerencia, jefes de área o representantes debidamente autorizados, siempre que sean acordes con la ley y con el contrato de trabajo.</p>
+</div><p>3.	Confidencialidad y lealtad Guardar reserva sobre la información confidencial de la empresa, en especial sobre proveedores, clientes, precios, condiciones comerciales, estrategias de exportación y demás datos sensibles, sin perjuicio del deber de denunciar hechos ilícitos ante las autoridades competentes.</p>
+</div><p>4.	Conservación de bienes y recursos Conservar en buen estado, salvo el desgaste normal, los equipos, computadores, dispositivos, mobiliario, documentos y demás bienes que la empresa les entregue para el cumplimiento de sus funciones, restituyéndolos al finalizar la relación laboral.</p>
+</div><p>5.	Conducta moral y profesional Mantener un comportamiento respetuoso, honesto y profesional con superiores, compañeros, clientes y proveedores, dentro y fuera de las instalaciones cuando actúan en representación de la empresa.</p>
+</div><p>6.	Colaboración y comunicación oportuna Comunicar oportunamente a la empresa cualquier situación que pueda generar daños o perjuicios económicos, contractuales o reputacionales, así como participar en la prevención y atención de situaciones de emergencia o riesgo inminente para las personas o los bienes de la empresa.</p>
+</div><p>7.	Cumplimiento de medidas preventivas en SST Observar las medidas preventivas higiénicas y de seguridad que prescriba el médico ocupacional, las autoridades de salud y el SG-SST de la empresa; asistir a las capacitaciones y usar los elementos de protección personal cuando así se requiera (por ejemplo, en visitas a plantas de terceros o puertos).</p>
+</div><p>8.	Información personal actualizada Mantener actualizados sus datos personales, domicilio, teléfono, correo electrónico y demás canales de contacto registrados en la empresa, informando cualquier cambio de manera oportuna.</p>
+</div><p>9.	Obligación especial para trabajadoras embarazadas Informar oportunamente su estado de embarazo para activar las medidas de protección reforzada y gestionar, de acuerdo con la Ley 1822 de 2017, el inicio oportuno de la licencia de maternidad y las medidas de protección que correspondan.</p>
+</div><p>________________________________________</p>
+</div><p>Sección 3</p>
+</div><p>Prohibiciones para la empresa</p>
+</div><h4 id="articulo-78">Artículo 78. Prohibiciones para LA FAMILIA CAFÉ S.A.S.</h4>
+<div class="articulo-content"><p>En nuestra empresa están prohibidas, entre otras, las conductas señaladas en el artículo 59 del Código Sustantivo del Trabajo, adaptadas a nuestro contexto:</p>
+</div><p>1.	Deducir, retener o compensar sumas del salario o de las prestaciones sin autorización escrita del trabajador para cada caso o sin orden judicial, salvo las excepciones expresamente autorizadas por la ley.</p>
+</div><p>2.	Obligar o presionar a los trabajadores para que adquieran bienes o servicios en determinado proveedor.</p>
+</div><p>3.	Exigir sumas de dinero o cualquier beneficio para permitir el ingreso, la permanencia o la promoción dentro de la empresa.</p>
+</div><p>4.	Limitar o presionar el ejercicio del derecho de asociación sindical o de participación en organizaciones de trabajadores legalmente constituidas.</p>
+</div><p>5.	Imponer obligaciones de carácter religioso o político, o dificultar el ejercicio del derecho al voto.</p>
+</div><p>6.	Permitir o promover propaganda política en los sitios y horarios de trabajo.</p>
+</div><p>7.	Emplear signos o anotaciones en certificaciones laborales con el fin de perjudicar al ex trabajador o usar listas negras para impedir su vinculación a otras empresas.</p>
+</div><p>8.	Ejecutar actos que vulneren o restrinjan los derechos fundamentales o que atenten contra la dignidad de los trabajadores.</p>
+</div><p>9.	Cerrar intempestivamente la empresa sin observar las disposiciones legales y sin garantizar el pago de los salarios y prestaciones a que haya lugar.</p>
+</div><p>10.	Retener de forma ilegal y colectiva los salarios de los trabajadores; en caso de comprobarse esta conducta, la cesación de actividades será imputable al empleador con las consecuencias legales correspondientes.</p>
+</div><p>________________________________________</p>
+</div><p>Prohibiciones para las personas trabajadoras</p>
+</div><h4 id="articulo-79">Artículo 79. Prohibiciones para las personas trabajadoras</h4>
+<div class="articulo-content"><p>En LA FAMILIA CAFÉ S.A.S. se prohíbe a las personas trabajadoras, entre otras conductas:</p>
+</div><p>1.	Sustracción y mal uso de bienes</p>
+</div><p>o	Sustraer, apropiarse o utilizar para fines personales los equipos, documentos, información, muestras de café u otros bienes de la empresa sin autorización.</p>
+</div><p>o	Vender, ceder o intercambiar dotación, elementos de protección personal o bienes entregados por la empresa para el cumplimiento de sus funciones.</p>
+</div><p>2.	Confidencialidad e información</p>
+</div><p>o	Divulgar o compartir información confidencial de la empresa con terceros no autorizados, incluidos competidores, clientes o proveedores.</p>
+</div><p>o	Utilizar información de la empresa para negocios particulares o actividades que compitan con LA FAMILIA CAFÉ S.A.S.</p>
+</div><p>3.	Alcohol, drogas y sustancias psicoactivas</p>
+</div><p>o	Presentarse al trabajo bajo los efectos del alcohol, sustancias psicoactivas o medicamentos que alteren su capacidad de respuesta sin autorización médica.</p>
+</div><p>o	Consumir, portar o distribuir bebidas alcohólicas o sustancias psicoactivas en jornadas, reuniones o espacios de trabajo, salvo eventos institucionales expresamente autorizados y regulados por la empresa.</p>
+</div><p>4.	Seguridad y protección</p>
+</div><p>o	Desatender de forma reiterada el uso de elementos de protección personal cuando sean exigidos para determinadas actividades.</p>
+</div><p>o	Ingresar o conservar armas de cualquier tipo en las instalaciones o en actividades de representación de la empresa, salvo los casos expresamente autorizados por la ley.</p>
+</div><p>5.	Asistencia y puntualidad</p>
+</div><p>o	Faltar al trabajo sin justa causa y sin permiso previo, o abandonar el puesto durante la jornada sin autorización del jefe inmediato.</p>
+</div><p>o	Permanecer en las instalaciones de la empresa fuera del horario laboral sin motivo justificado o sin autorización.</p>
+</div><p>6.	Conducta y disciplina</p>
+</div><p>o	Realizar colectas, rifas o suscripciones dentro de los lugares de trabajo sin autorización de la gerencia.</p>
+</div><p>o	Realizar negocios propios relacionados con la actividad económica de la empresa o aprovechar su cargo para obtener beneficios personales o para terceros.</p>
+</div><p>o	Ejecutar trabajos alternos personales durante la jornada laboral utilizando recursos, equipos o tiempo de la empresa.</p>
+</div><p>o	Tener conductas que lesionen la imagen de la empresa al usar uniforme, elementos de identificación o intervenir en eventos en nombre de LA FAMILIA CAFÉ S.A.S. con comportamiento contrario a la ética y a la buena conducta.</p>
+</div><p>o	Ejercer acoso laboral o sexual, maltrato, hostigamiento o cualquier otra conducta intimidatoria contra compañeros, subordinados o superiores, que será tratada conforme a la Ley 1010 de 2006, la Ley 2365 de 2024 y el protocolo de convivencia y prevención de acoso que forma parte de este Reglamento.</p>
+</div></section><section id="capitulo-12" style="padding-top: 20px; border-top: 1px solid #ccc;"><h2>Capítulo XIV: </h2><h5>ESCALA DE FALTAS Y SANCIONES DISCIPLINARIAS</h5><h4 id="articulo-80">Artículo 80. Clasificación de las faltas disciplinarias</h4>
+<div class="articulo-content"><p>En LA FAMILIA CAFÉ S.A.S. clasificamos las faltas disciplinarias en leves, graves y gravísimas, aplicando el principio de proporcionalidad previsto en la Ley 2466 de 2025 y garantizando en todo momento el debido proceso establecido en el artículo 29 de la Constitución Política y las normas laborales vigentes.</p>
+</div><p>________________________________________</p>
+</div><p>Sección 1</p>
+</div><p>Faltas leves</p>
+</div><h4 id="articulo-81">Artículo 81. Faltas leves</h4>
+<div class="articulo-content"><p>Son faltas leves aquellas conductas que alteran el orden, la disciplina o la organización del trabajo sin generar un perjuicio grave para la empresa, para los compañeros o para terceros. Entre otras, se consideran faltas leves:</p>
+</div><p>1.	Retrasos menores en la llegada al trabajo Retrasos hasta de quince (15) minutos, sin causa justificada y siempre que no afecten de forma significativa la operación ni el cumplimiento de compromisos con clientes, proveedores o aliados logísticos.</p>
+</div><p>2.	Pérdidas económicas menores Pérdidas o daños leves en bienes de la empresa (equipos, insumos de oficina, elementos de trabajo) hasta el monto que la gerencia defina periódicamente en la política interna de la empresa, derivadas de negligencia leve y sin afectación relevante a la operación.</p>
+</div><p>3.	Otras conductas leves a) Incumplimiento menor de las normas de presentación personal, sin afectar la imagen corporativa ni la confianza de clientes o aliados.</p>
+</div><p>b) Uso inadecuado de elementos de trabajo sin causar daño o pérdida.</p>
+</div><p>c) Demoras injustificadas en la entrega de informes o documentos que no afecten operaciones críticas ni plazos contractuales.</p>
+</div><p>d) No reportar oportunamente cambios de información personal (dirección, teléfono, estado civil, datos de contacto).</p>
+</div><p>e) Consumo de alimentos en áreas no autorizadas, siempre que no se afecte la higiene, la seguridad ni la atención a terceros.</p>
+</div><h4 id="articulo-82">Artículo 82. Sanciones para faltas leves</h4>
+<div class="articulo-content"><p>Sin perjuicio de la valoración de cada caso, en LA FAMILIA CAFÉ S.A.S. podremos aplicar gradualmente las siguientes sanciones para faltas leves, respetando siempre el debido proceso:</p>
+</div><p>1.	Primera ocurrencia: llamado de atención verbal, dejando constancia escrita en la historia laboral.</p>
+</div><p>2.	Segunda ocurrencia: llamado de atención escrito.</p>
+</div><p>3.	Tercera ocurrencia: suspensión hasta por cuatro (4) horas de trabajo sin remuneración, o descuento equivalente al tiempo de suspensión.</p>
+</div><p>Cuando la conducta se repita de manera reiterada, podrá ser reclasificada como falta grave, según la valoración objetiva del caso.</p>
+</div><p>________________________________________</p>
+</div><p>Sección 2</p>
+</div><p>Faltas graves</p>
+</div><h4 id="articulo-83">Artículo 83. Faltas graves</h4>
+<div class="articulo-content"><p>Son faltas graves aquellas que afectan de forma significativa el normal desarrollo de las actividades, generan perjuicios económicos relevantes o ponen en riesgo la seguridad, la información o la reputación de la empresa. Se consideran, entre otras, faltas graves:</p>
+</div><p>1.	Retrasos que afectan la operación Retrasos reiterados o de hasta treinta (30) minutos que ocasionen afectación evidente en el cumplimiento de compromisos con clientes, proveedores, navieras, agencias de aduana o aliados logísticos.</p>
+</div><p>2.	Pérdidas económicas considerables Pérdidas de dinero o bienes de la empresa por valor superior al definido para faltas leves y hasta el tope que la política interna señale como límite para esta categoría, siempre que se deriven de negligencia importante y no de dolo.</p>
+</div><p>3.	Inasistencia injustificada sin perjuicio grave Falta completa al trabajo, sin excusa suficiente, que no cause paralización crítica del proceso de compra o exportación de café, pero sí afecte la planificación del equipo o el cumplimiento de tareas.</p>
+</div><p>4.	Incumplimiento de medidas de seguridad y SST a) No uso reiterado de elementos de protección personal cuando sean exigidos en visitas a instalaciones de terceros o puertos.</p>
+</div><p>b) Desatender protocolos de seguridad de la información (contraseñas, acceso a sistemas, manejo de documentos).</p>
+</div><p>c) Realizar actividades que pongan en riesgo la seguridad de las personas o de la información, sin llegar a producir accidente o daño grave.</p>
+</div><p>5.	Otras faltas graves a) Ausentarse del lugar de trabajo o de la labor encomendada durante la jornada sin autorización del jefe inmediato.</p>
+</div><p>b) Utilizar medios, plataformas o recursos de la empresa para negocios personales durante la jornada laboral.</p>
+</div><p>c) Revelar a terceros información no crítica pero aún reservada sobre procesos internos, siempre que no se configure una falta gravísima de confidencialidad.</p>
+</div><p>d) Desacatar de forma reiterada las instrucciones laborales legítimas del jefe inmediato.</p>
+</div><h4 id="articulo-84">Artículo 84. Sanciones para faltas graves</h4>
+<div class="articulo-content"><p>Para faltas graves, y según la gravedad concreta de los hechos, la reincidencia y las circunstancias atenuantes o agravantes, podremos aplicar:</p>
+</div><p>1.	Primera ocurrencia: suspensión de uno (1) a tres (3) días sin derecho a salario.</p>
+</div><p>2.	Segunda ocurrencia: suspensión de tres (3) a cinco (5) días sin derecho a salario.</p>
+</div><p>3.	Tercera ocurrencia: suspensión de cinco (5) a ocho (8) días sin derecho a salario.</p>
+</div><p>La reincidencia reiterada en faltas graves podrá considerarse como causal para evaluar la terminación del contrato, previa observancia del debido proceso.</p>
+</div><p>________________________________________</p>
+</div><p>Sección 3</p>
+</div><p>Faltas gravísimas</p>
+</div><h4 id="articulo-85">Artículo 85. Faltas gravísimas</h4>
+<div class="articulo-content"><p>Son faltas gravísimas aquellas que atentan de manera seria contra la disciplina, la seguridad, la moral, los bienes, la información o la reputación de LA FAMILIA CAFÉ S.A.S., y que pueden constituir justa causa para la terminación del contrato de trabajo, conforme al Código Sustantivo del Trabajo y a la Ley 2466 de 2025. Entre otras, se consideran faltas gravísimas:</p>
+</div><p>1.	Inasistencia crítica y abandono del cargo</p>
+</div><p>a) Inasistencia injustificada que genere la pérdida de embarques, cancelación de contratos, pérdida de clientes relevantes o incumplimientos graves frente a proveedores, navieras o agencias de aduana.</p>
+</div><p>b) Abandono del puesto de trabajo en momentos críticos para la operación (cierres de negociación, embarques, vencimientos de plazos contractuales), sin causa justificada.</p>
+</div><p>2.	Pérdidas económicas graves o fraude</p>
+</div><p>a) Pérdidas de dinero o bienes de la empresa por negligencia grave o dolo, superiores a los montos definidos internamente para faltas graves.</p>
+</div><p>b) Apropiación indebida de recursos económicos, comisiones, descuentos o bonificaciones negociadas en nombre de la empresa.</p>
+</div><p>c) Falsificación de documentos, firmas, soportes contables o registros internos.</p>
+</div><p>3.	Alcohol, drogas y sustancias psicoactivas</p>
+</div><p>a) Presentarse al trabajo bajo efectos de alcohol o sustancias psicoactivas, o en estado de resaca que afecte notoriamente el desempeño.</p>
+</div><p>b) Consumir, portar o distribuir bebidas alcohólicas o sustancias psicoactivas en espacios de trabajo, reuniones internas o actividades realizadas en nombre de la empresa, salvo eventos institucionales regulados y autorizados.</p>
+</div><p>4.	Violencia, acoso y discriminación</p>
+</div><p>a) Agresiones físicas o verbales graves contra compañeros, superiores, clientes, proveedores o terceros.</p>
+</div><p>b) Acoso laboral, acoso sexual o cualquier forma de violencia basada en género, identidad de género, orientación sexual, raza, etnia, edad, condición de salud u otro factor protegido, de acuerdo con la Ley 1010 de 2006, la Ley 1257 de 2008 y la Ley 2365 de 2024.</p>
+</div><p>c) Amenazas, intimidaciones o represalias contra quien presente quejas o denuncias internas.</p>
+</div><p>5.	Violación grave de la confidencialidad</p>
+</div><p>a) Revelar información estratégica o crítica de la empresa (condiciones comerciales, precios, contratos, acuerdos con clientes clave, estrategias de mercado) a competidores o terceros no autorizados.</p>
+</div><p>b) Utilizar información confidencial de la empresa para desarrollar actividades de competencia desleal.</p>
+</div><p>6.	Seguridad crítica e integridad de sistemas</p>
+</div><p>a) Manipular o sabotear sistemas informáticos, bases de datos, correos corporativos o plataformas tecnológicas con intención de causar daño.</p>
+</div><p>b) Borrar, alterar o destruir información relevante para la empresa sin autorización.</p>
+</div><p>7.	Otras faltas gravísimas</p>
+</div><p>a) Porte de armas no autorizadas en las instalaciones o en actividades en representación de la empresa.</p>
+</div><p>b) Sabotaje deliberado a procesos, relaciones comerciales o imagen corporativa de LA FAMILIA CAFÉ S.A.S.</p>
+</div><h4 id="articulo-86">Artículo 86. Sanciones para faltas gravísimas</h4>
+<div class="articulo-content"><p>Para faltas gravísimas, y previa observancia estricta del debido proceso, podremos aplicar:</p>
+</div><p>1.	Primera ocurrencia: suspensión de ocho (8) a quince (15) días sin derecho a salario, cuando la gravedad lo permita y no se configure de inmediato causal de terminación.</p>
+</div><p>2.	Cuando la gravedad de los hechos o la reincidencia lo justifique: terminación del contrato de trabajo con justa causa, conforme al Código Sustantivo del Trabajo y la Ley 2466 de 2025.</p>
+</div><p>________________________________________</p>
+</div><p>Sección 4</p>
+</div><p>Aplicación y efectos de las sanciones</p>
+</div><h4 id="articulo-87">Artículo 87. Aplicación económica de las sanciones disciplinarias</h4>
+<div class="articulo-content"><p>En LA FAMILIA CAFÉ S.A.S., las sanciones de suspensión disciplinaria implican la no remuneración del tiempo de suspensión. En tales casos:</p>
+</div><p>1.	El salario se liquidará descontando los días u horas de suspensión.</p>
+</div><p>2.	Los aportes al Sistema de Seguridad Social Integral se realizarán conforme a la normatividad vigente, sobre el salario efectivamente devengado, sin perjuicio de la obligación de afiliación continua.</p>
+</div><p>3.	Las prestaciones sociales se calcularán teniendo en cuenta el tiempo efectivamente laborado y remunerado, deduciendo los días de suspensión.</p>
+</div><p>Llevaremos un registro actualizado de las sanciones disciplinarias que hacen parte del expediente laboral del trabajador.</p>
+</div><p>________________________________________</p>
+</div><p>Sección 5</p>
+</div><p>Procedimientos disciplinarios</p>
+</div><h4 id="articulo-88">Artículo 88. Procedimiento disciplinario según número de trabajadores</h4>
+<div class="articulo-content"><p>En LA FAMILIA CAFÉ S.A.S. aplicaremos dos esquemas de procedimiento disciplinario, de acuerdo con el tamaño de la empresa, en armonía con el artículo 7 de la Ley 2466 de 2025:</p>
+</div><p>1.	Procedimiento simplificado (empresa con menos de 10 trabajadores)</p>
+</div><p>Mientras nuestra planta de personal sea inferior a diez (10) trabajadores, aplicaremos un procedimiento simplificado, en el que el responsable del proceso será la Gerencia o la persona que esta delegue por escrito.</p>
+</div><p>El procedimiento mínimo incluirá:</p>
+</div><p>a) Comunicación formal de apertura del proceso disciplinario al trabajador.</p>
+</div><p>b) Formulación de cargos por escrito (puede ser por correo electrónico u otro medio verificable), con exposición clara de los hechos.</p>
+</div><p>c) Traslado de las pruebas que soportan los cargos.</p>
+</div><p>d) Otorgamiento de un término no inferior a dos (2) días hábiles para que el trabajador presente sus descargos y aporte o solicite pruebas.</p>
+</div><p>e) Análisis de descargos y pruebas.</p>
+</div><p>f) Decisión motivada por escrito.</p>
+</div><p>g) Comunicación de la sanción, si a ello hubiere lugar, con indicación del recurso de impugnación ante la misma Gerencia.</p>
+</div><p>2.	Procedimiento de doble instancia (empresa con 10 o más trabajadores)</p>
+</div><p>A partir del momento en que nuestra planta de personal sea igual o superior a diez (10) trabajadores, aplicaremos un procedimiento de doble instancia:</p>
+</div><p>o	Primera instancia: Jefatura de Talento Humano o quien haga sus veces.</p>
+</div><p>o	Segunda instancia: Gerente General.</p>
+</div><p>El procedimiento comprenderá:</p>
+</div><p>a) Comunicación formal de apertura del proceso disciplinario.</p>
+</div><p>b) Formulación detallada de cargos por escrito.</p>
+</div><p>c) Traslado completo de las pruebas.</p>
+</div><p>d) Término no inferior a cinco (5) días hábiles para descargos.</p>
+</div><p>e) Decisión de primera instancia, debidamente motivada.</p>
+</div><p>f) Derecho de apelación ante la Gerencia dentro del término que se indique en la decisión.</p>
+</div><p>g) Decisión final de segunda instancia, con la confirmación, modificación o revocatoria de la sanción.</p>
+</div><p>________________________________________</p>
+</div><p>Sección 6</p>
+</div><p>Garantías del debido proceso</p>
+</div><h4 id="articulo-89">Artículo 89. Garantías mínimas del debido proceso disciplinario</h4>
+<div class="articulo-content"><p>En todas las actuaciones disciplinarias en LA FAMILIA CAFÉ S.A.S. garantizamos, como mínimo, las siguientes garantías, en concordancia con el artículo 29 de la Constitución Política y la Ley 2466 de 2025:</p>
+</div><p>1.	Dignidad humana: Trato respetuoso durante todo el trámite.</p>
+</div><p>2.	Presunción de inocencia: El trabajador se presume inocente hasta que se demuestre lo contrario.</p>
+</div><p>3.	In dubio pro disciplinado: En caso de duda razonable, se resuelve a favor del trabajador.</p>
+</div><p>4.	Proporcionalidad: La sanción será proporcional a la falta y a las circunstancias del caso.</p>
+</div><p>5.	Derecho de defensa: Oportunidad real para presentar descargos, aportar y controvertir pruebas.</p>
+</div><p>6.	Contradicción: Posibilidad de controvertir las pruebas en su contra.</p>
+</div><p>7.	Imparcialidad: Quien decide debe actuar con objetividad, sin animadversión ni favoritismo.</p>
+</div><p>8.	Intimidad y buen nombre: Manejo reservado de la información y protección de la honra del trabajador.</p>
+</div><p>9.	Non bis in ídem: No se impondrán dos sanciones disciplinarias por los mismos hechos y sobre la misma persona.</p>
+</div><p>10.	Decisión motivada: Toda sanción se fundamentará por escrito, con explicación clara de los motivos.</p>
+</div><p>11.	Constancia escrita: Todo el proceso disciplinario quedará documentado en el expediente laboral.</p>
+</div><p>________________________________________</p>
+</div></section><section id="capitulo-13" style="padding-top: 20px; border-top: 1px solid #ccc;"><h2>Capítulo XV: </h2><p>RECLAMOS: PERSONAS ANTE QUIENES DEBEN PRESENTARSE Y SU TRAMITACIÓN</p>
+</div><h4 id="articulo-90">Artículo 90. Instancias para presentar reclamos</h4>
+<div class="articulo-content"><p>En LA FAMILIA CAFÉ S.A.S., nuestros trabajadores pueden presentar sus reclamos, quejas o peticiones frente a situaciones laborales ante las siguientes instancias internas:</p>
+</div><p>1.	Gerencia General de la empresa.</p>
+</div><p>2.	Área o responsable de Talento Humano, cuando exista dicho rol.</p>
+</div><p>3.	Comité de Convivencia Laboral, para los asuntos relacionados con convivencia, posibles situaciones de acoso laboral o sexual, o afectaciones al clima laboral, de conformidad con la normatividad vigente.</p>
+</div><h4 id="articulo-91">Artículo 91. Modalidades de presentación de reclamos</h4>
+<div class="articulo-content"><p>Los reclamos podrán presentarse:</p>
+</div><p>1.	De manera verbal, ante cualquiera de las instancias mencionadas, caso en el cual se dejará constancia interna.</p>
+</div><p>2.	De manera escrita, mediante comunicación física o electrónica, en la que se indiquen de forma clara los hechos, fechas relevantes, personas involucradas y las solicitudes concretas del trabajador.</p>
+</div><h4 id="articulo-92">Artículo 92. Trámite interno de los reclamos</h4>
+<div class="articulo-content"><p>En LA FAMILIA CAFÉ S.A.S. adelantaremos el siguiente procedimiento mínimo para la atención de reclamos:</p>
+</div><p>1.	Recepción: Registraremos el reclamo dentro de los dos (2) días hábiles siguientes a su presentación.</p>
+</div><p>2.	Análisis: Revisaremos los hechos y, de ser necesario, escucharemos a las personas involucradas, garantizando el derecho de defensa y contradicción.</p>
+</div><p>3.	Respuesta: Emitiremos respuesta escrita en un término no mayor a quince (15) días hábiles contados desde la recepción del reclamo, indicando las decisiones o medidas adoptadas.</p>
+</div><p>4.	Seguimiento: Realizaremos seguimiento a los compromisos o acciones definidas, dejando constancia en los registros internos.</p>
+</div><h4 id="articulo-93">Artículo 93. Garantías para quienes presentan reclamos</h4>
+<div class="articulo-content"><p>En nuestra empresa garantizamos que:</p>
+</div><p>1.	Los reclamos se tratarán con confidencialidad, salvo las revelaciones exigidas por la ley o necesarias para la adecuada investigación.</p>
+</div><p>2.	Ningún trabajador será objeto de represalias por presentar un reclamo de buena fe o por colaborar en una investigación interna.</p>
+</div><p>3.	Se respetará en todo momento el debido proceso, la dignidad humana y el derecho al buen nombre de todas las personas involucradas.</p>
+</div></section><section id="capitulo-14" style="padding-top: 20px; border-top: 1px solid #ccc;"><h2>Capítulo XVI: </h2><p>MECANISMOS DE PREVENCIÓN DEL ACOSO LABORAL, CONVIVENCIA, INCLUSIÓN Y DESCONEXIÓN LABORAL</p>
+</div><h5>DEFINICIONES Y MARCO NORMATIVO</h5><h4 id="articulo-94">Artículo 94. Definición de acoso laboral y ámbito de aplicación</h4>
+<div class="articulo-content"><p>En LA FAMILIA CAFÉ entendemos por acoso laboral toda conducta persistente y demostrable, ejercida sobre un trabajador, jefe o superior, compañero o subalterno, encaminada a infundir miedo, intimidación, terror o angustia, causar perjuicio laboral, generar desmotivación en el trabajo o inducir la renuncia, de conformidad con la Ley 1010 de 2006.</p>
+</div><p>Esta regulación se aplica a las relaciones de trabajo subordinadas que se ejecuten en LA FAMILIA CAFÉ, sin perjuicio de los demás mecanismos legales de protección previstos en la legislación laboral colombiana.</p>
+</div><h4 id="articulo-95">Artículo 95. Marco normativo general: Para la prevención, atención y trámite de situaciones de acoso laboral, factores de riesgo psicosocial y violencia basada en género, en LA FAMILIA CAFÉ nos regimos, entre otras, por las siguientes normas:</h4>
+<div class="articulo-content"><ul><li>Ley 1010 de 2006: Medidas para prevenir, corregir y sancionar el acoso laboral.</li><ul><li>Resolución 2646 de 2008: Disposiciones sobre identificación, evaluación, prevención, intervención y monitoreo de factores de riesgo psicosocial.</li><ul><li>Normas sobre Comités de Convivencia Laboral vigentes expedidas por el Ministerio del Trabajo.</li><ul><li>Ley 2365 de 2024 (acoso sexual en el contexto laboral).</li><ul><li>Ley 1618 de 2013 y Ley 2466 de 2025, en lo relativo a inclusión laboral y no discriminación.</li><ul><li>Ley 2191 de 2022, sobre el derecho a la desconexión laboral.</li><h4 id="articulo-96">Artículo 96. Conductas que constituyen y no constituyen acoso laboral: En LA FAMILIA CAFÉ consideramos como acoso laboral, entre otros, los comportamientos descritos por la Ley 1010 de 2006, tales como: maltrato laboral, persecución, discriminación, entorpecimiento, inequidad y desprotección laboral, cuando sean reiterados, públicos o demostrables, y generen afectación real o potencial a la dignidad, la salud o la estabilidad laboral del trabajador.</h4>
+<div class="articulo-content"><p>No constituyen acoso laboral, entre otros, el ejercicio razonable de la potestad subordinante del empleador (dirección, control, supervisión), la imposición de correctivos disciplinarios ajustados al Reglamento Interno de Trabajo, la exigencia de cumplimiento de metas y funciones, ni las decisiones administrativas adoptadas con base en causas legales o contractuales válidas.</p>
+</div><p>________________________________________</p>
+</div><p>COMITÉ O MECANISMO DE CONVIVENCIA LABORAL</p>
+</div><h4 id="articulo-97">Artículo 97. Comité o mecanismo de Convivencia Laboral: En LA FAMILIA CAFÉ implementaremos el Comité de Convivencia Laboral o el mecanismo que dispongan las normas vigentes para el tamaño de la empresa, como instancia preventiva, orientadora, conciliadora y canalizadora, conforme a la Ley 1010 de 2006 y la reglamentación expedida por el Ministerio del Trabajo.</h4>
+<div class="articulo-content"><p>Su objeto es promover un ambiente de trabajo sano y respetuoso, prevenir el acoso laboral y gestionar de manera confidencial y oportuna los reportes de situaciones que puedan constituirlo.</p>
+</div><h4 id="articulo-98">Artículo 98. Conformación, período y reglamento interno: La conformación del Comité o mecanismo de Convivencia Laboral en LA FAMILIA CAFÉ será bipartita (representantes del empleador y de los trabajadores), en el número y condiciones exigidas por la normatividad vigente del Ministerio del Trabajo.</h4>
+<div class="articulo-content"><p>1.	Los representantes del empleador serán designados por la gerencia de LA FAMILIA CAFÉ.</p>
+</div><p>2.	Los representantes de los trabajadores serán elegidos mediante votación secreta, libre y directa entre los trabajadores.</p>
+</div><p>3.	El período de los miembros será de dos (2) años, prorrogable o renovable según decisión de la empresa y la normativa vigente.</p>
+</div><p>El detalle sobre procesos de postulación, elección, actas, sesiones, reemplazos y demás aspectos operativos del Comité se desarrollará en el documento denominado:</p>
+</div><p>“Protocolo Interno de Prevención y Atención del Acoso Laboral y de Convivencia Laboral de LA FAMILIA CAFÉ”, el cual hace parte integral del Sistema de Gestión de Seguridad y Salud en el Trabajo y se considera anexo a este Reglamento Interno de Trabajo.</p>
+</div><h4 id="articulo-99">Artículo 99. Funciones generales del Comité o mecanismo de Convivencia Laboral</h4>
+<div class="articulo-content"><p>En LA FAMILIA CAFÉ, el Comité o mecanismo de Convivencia Laboral tendrá, entre otras, las siguientes funciones generales:</p>
+</div><p>1.	Recibir y tramitar las quejas por posibles situaciones de acoso laboral o conflictos de convivencia.</p>
+</div><p>2.	Escuchar de manera individual y confidencial a las partes involucradas.</p>
+</div><p>3.	Formular recomendaciones y compromisos orientados a mejorar el clima laboral y prevenir la repetición de comportamientos inadecuados.</p>
+</div><p>4.	Recomendar a la gerencia acciones preventivas, correctivas, de capacitación y de mejora del ambiente laboral.</p>
+</div><p>5.	Realizar seguimiento a los compromisos adquiridos en el marco de sus recomendaciones.</p>
+</div><p>6.	Elevar a la gerencia los casos en los que no sea posible una solución interna, remitiendo al trabajador a las autoridades competentes (Inspección del Trabajo, juez laboral, etc.).</p>
+</div><p>Los pasos detallados, plazos, formatos y canales de reporte estarán contenidos en el Protocolo Interno antes mencionado.</p>
+</div><h4 id="articulo-110">Artículo 110. Confidencialidad y protección frente a represalias: Toda la información que se tramite en el Comité o mecanismo de Convivencia Laboral en LA FAMILIA CAFÉ es de carácter confidencial. Sus integrantes están obligados a guardar reserva sobre los hechos, documentos y testimonios conocidos en razón de su función.</h4>
+<div class="articulo-content"><p>Queda expresamente prohibida cualquier forma de represalia contra quien presente de buena fe una queja, participe como testigo o acuda a los mecanismos internos o externos de protección frente al acoso laboral. Las represalias constituyen falta grave disciplinaria.</p>
+</div><p>________________________________________</p>
+</div><p>ACOSO SEXUAL LABORAL Y VIOLENCIA BASADA EN GÉNERO</p>
+</div><h4 id="articulo-111">Artículo 111. Política de prevención del acoso sexual y violencia basada en género En LA FAMILIA CAFÉ adoptamos una política de tolerancia cero frente al acoso sexual y a la violencia basada en género, conforme a la Ley 2365 de 2024, la Ley 1257 de 2008 y demás normas concordantes.</h4>
+<div class="articulo-content"><p>Se entiende por acoso sexual laboral cualquier acto de persecución, hostigamiento o asedio de connotación sexual, lasciva o libidinosa, mediado por relaciones de poder de orden vertical u horizontal, que se presente en el contexto del trabajo, ya sea de manera única o reiterada, y que vulnere la dignidad, integridad o libertad sexual de la persona.</p>
+</div><h4 id="articulo-112">Artículo 112. Procedimiento interno y remisión a autoridades Las quejas por presunto acoso sexual o violencia basada en género:</h4>
+<div class="articulo-content"><p>1.	Serán recibidas por el área de Talento Humano o por la gerencia de LA FAMILIA CAFÉ, por escrito o a través de los canales definidos en el Protocolo Interno de Prevención y Atención de Violencias Basadas en Género y Acoso Sexual.</p>
+</div><p>2.	Serán tramitadas con estricto respeto por la confidencialidad, la no revictimización y el debido proceso.</p>
+</div><p>3.	Podrán dar lugar a medidas inmediatas de protección (cambio de puesto, ajuste de horarios, restricción de contacto, entre otras), cuando la situación lo amerite.</p>
+</div><p>4.	No serán objeto de conciliación en el Comité de Convivencia Laboral, de conformidad con la Ley 2365 de 2024; sin embargo, el Comité podrá orientar sobre las rutas de atención y acompañamiento.</p>
+</div><p>5.	A solicitud de la presunta víctima, la empresa informará sobre la posibilidad de acudir a la Fiscalía General de la Nación u otras autoridades competentes, y podrá remitir copia del caso cuando así se requiera.</p>
+</div><p>________________________________________</p>
+</div><p>POLÍTICA DE INCLUSIÓN LABORAL Y NO DISCRIMINACIÓN</p>
+</div><h4 id="articulo-113">Artículo 113. Inclusión, igualdad y ajustes razonables. En LA FAMILIA CAFÉ nos comprometemos a promover un entorno laboral inclusivo, seguro y libre de discriminación, garantizando la igualdad de oportunidades en el acceso, permanencia, desarrollo y promoción del talento humano.</h4>
+<div class="articulo-content"><p>Queda prohibida cualquier discriminación por razones de:</p>
+</div><ul><li>Sexo, género, identidad de género u orientación sexual.</li><ul><li>Edad, raza, etnia, origen familiar o nacional.</li><ul><li>Creencias religiosas, opiniones políticas o condición socioeconómica.</li><ul><li>Discapacidad, condición de salud, estado civil o situación familiar.</li><p>Cuando sea necesario, LA FAMILIA CAFÉ implementará ajustes razonables para personas con discapacidad, conforme a la Ley 1618 de 2013 y la Ley 2466 de 2025, así como acciones afirmativas para poblaciones especialmente protegidas, de acuerdo con la normatividad vigente.</p>
+</div><p>________________________________________</p>
+</div><p>POLÍTICA DE DESCONEXIÓN LABORAL</p>
+</div><h4 id="articulo-114">Artículo 114. Derecho a la desconexión laboral. En LA FAMILIA CAFÉ garantizamos a todos nuestros trabajadores el derecho a la desconexión laboral, de conformidad con la Ley 2191 de 2022, entendido como la facultad de no atender comunicaciones, llamadas, mensajes o requerimientos laborales por fuera de la jornada de trabajo, durante sus descansos, licencias y vacaciones, salvo las excepciones legales.</h4>
+<div class="articulo-content"><p>Ningún trabajador estará obligado a responder comunicaciones de trabajo fuera de su jornada, y no se podrán imponer sanciones, medidas disciplinarias o represalias por ejercer este derecho.</p>
+</div><h4 id="articulo-115">Artículo 115. Lineamientos, excepciones y reporte de vulneraciones</h4>
+<div class="articulo-content"><p>1.	Lineamientos generales</p>
+</div><p>o	Los jefes, coordinadores o superiores deberán abstenerse de impartir órdenes, asignar tareas o hacer requerimientos por fuera de la jornada laboral, salvo en los casos expresamente autorizados por la ley o por el contrato de trabajo.</p>
+</div><p>o	El uso de herramientas tecnológicas (WhatsApp, correo electrónico, plataformas de mensajería) fuera del horario laboral no genera obligación de respuesta inmediata, salvo cuando exista acuerdo expreso y compensación conforme a la ley.</p>
+</div><p>2.	Excepciones</p>
+</div><p>El derecho a la desconexión laboral podrá limitarse en los siguientes casos, los cuales deberán estar claramente identificados en el contrato o en políticas internas:</p>
+</div><p>o	Cargos de dirección, confianza y manejo.</p>
+</div><p>o	Situaciones de fuerza mayor o emergencias que afecten gravemente la operación.</p>
+</div><p>o	Turnos de disponibilidad previamente pactados y compensados.</p>
+</div><p>3.	Mecanismo de reporte. El trabajador que considere vulnerado su derecho a la desconexión laboral podrá presentar queja ante Talento Humano o la gerencia de LA FAMILIA CAFÉ. La empresa analizará el caso y adoptará las medidas necesarias para garantizar el respeto de este derecho, sin represalias para el trabajador.</p>
+</div><h5>PUBLICACIONES</h5><h4 id="articulo-116">Artículo 116. Publicación y divulgación del Reglamento Interno de Trabajo. En LA FAMILIA CAFÉ garantizaremos la publicación y divulgación del presente Reglamento Interno de Trabajo mediante los siguientes mecanismos:</h4>
+<div class="articulo-content"><p>En cumplimiento de las disposiciones legales vigentes, el Reglamento Interno de Trabajo será publicado en la cartelera institucional de la empresa, en un lugar visible y de fácil acceso para todos los trabajadores. Adicionalmente, se notificará a todos los colaboradores sobre su contenido mediante circular interna, asegurando que cada trabajador tenga conocimiento de las disposiciones que lo rigen.</p>
+</div><p>Con el propósito de facilitar la consulta permanente del Reglamento, LA FAMILIA CAFÉ pondrá a disposición de sus trabajadores versiones digitales accesibles a través de los siguientes medios: aplicación de mensajería institucional (WhatsApp corporativo), enlace web de consulta directa y código QR para descarga o visualización inmediata. Estos canales digitales permitirán que los trabajadores accedan al documento en cualquier momento y desde cualquier lugar, promoviendo así el conocimiento y cumplimiento de las normas internas.</p>
+</div><p>Todos los trabajadores tienen la responsabilidad de informarse sobre el contenido del Reglamento Interno de Trabajo y la obligación de cumplirlo en el desarrollo de sus actividades laborales.</p>
+</div><h4 id="articulo-117">Artículo 117. Observaciones y solicitudes de modificación. La organización sindical, si la hubiere, y los trabajadores no sindicalizados, podrán solicitarnos dentro de los quince (15) días hábiles siguientes a la publicación del Reglamento los ajustes que estimen necesarios cuando consideren que sus cláusulas contravienen los artículos 106, 108, 111, 112 o 113 del Código Sustantivo del Trabajo.</h4>
+<div class="articulo-content"><h4 id="articulo-118">Artículo 118. Actuación de la autoridad administrativa de trabajo. Si no hubiere acuerdo entre LA FAMILIA CAFÉ y los trabajadores frente a las observaciones formuladas, el Inspector de Trabajo adelantará la investigación correspondiente, formulará objeciones si las hubiere y nos ordenará realizar las adiciones, modificaciones o supresiones conducentes, señalando como plazo máximo quince (15) días hábiles, al cabo de los cuales realizaremos los ajustes correspondientes.</h4>
+<div class="articulo-content"><h4 id="articulo-119">Artículo 119. Fijación del Reglamento en los lugares de trabajo. En LA FAMILIA CAFÉ publicaremos el Reglamento Interno de Trabajo en el lugar de trabajo, mediante la fijación de por lo menos dos (2) copias de caracteres legibles, en dos (2) sitios distintos y de fácil acceso para los trabajadores. Si existieren varios lugares de trabajo separados, la fijación se hará en cada uno de ellos, así como en medio electrónico, para el cual los trabajadores contarán con una ruta de acceso clara y permanente.</h4>
+<div class="articulo-content"><h5>Parágrafo 1. Canales de comunicación formal. LA FAMILIA CAFÉ reconoce como válidos tanto los documentos físicos como los mensajes de datos, conforme a la Ley 527 de 1999, que otorga validez jurídica a las comunicaciones electrónicas. Serán válidas las notificaciones mediante correos electrónicos, WhatsApp, plataformas digitales o cualquier medio electrónico o físico que adopte la empresa.</h5><p>Para comunicaciones laborales ordinarias se utilizarán canales institucionales (correo corporativo, WhatsApp empresarial, teléfonos institucionales). Para comunicaciones formales, legales o disciplinarias (memorandos, citaciones, requerimientos) se podrán utilizar los canales personales del trabajador (correo personal, teléfono personal, dirección de residencia) registrados en nuestra base de datos.</p>
+</div><p>La lectura, visualización o respuesta a cualquier comunicación se entenderá como acuse de recibo, según el artículo 10 de la Ley 527 de 1999. Los trabajadores deben mantener actualizados sus datos de contacto y revisar periódicamente los canales dispuestos por la empresa.</p>
+</div><p>________________________________________</p>
+</div></section><section id="capitulo-15" style="padding-top: 20px; border-top: 1px solid #ccc;"><h2>Capítulo XVI: </h2><h5>VIGENCIA</h5><h4 id="articulo-120">Artículo 120. Vigencia del Reglamento Interno de Trabajo. El presente Reglamento Interno de Trabajo entrará a regir a partir de la fecha de su publicación, hecha en la forma prescrita en los artículos anteriores, y mantendrá su vigencia mientras no sea modificado, sustituido o derogado conforme a la normatividad laboral colombiana vigente.</h4>
+<div class="articulo-content"><p>________________________________________</p>
+</div></section><section id="capitulo-16" style="padding-top: 20px; border-top: 1px solid #ccc;"><h2>Capítulo XVII: </h2><h5>DISPOSICIONES FINALES</h5><h4 id="articulo-121">Artículo 121. Derogatoria de reglamentos anteriores Desde la fecha en que entra en vigencia este Reglamento Interno de Trabajo, quedan</h4>
+<div class="articulo-content"></section></div>
+
+    </div>
+
+    <script>
+        // -------------------------------------------------------------------
+        // 1. Script para la Ventana Emergente (Modal)
+        // -------------------------------------------------------------------
+        function cerrarModal() {
+            document.getElementById('disclaimer-modal').style.display = 'none';
+            document.getElementById('contenido-principal').style.display = 'block';
+        }
+
+        // -------------------------------------------------------------------
+        // 2. Script para Deshabilitar Selección y Copia (Requisito 1)
+        // -------------------------------------------------------------------
+        // Deshabilitar el menú contextual (clic derecho)
+        document.addEventListener('contextmenu', function(e) {
+            e.preventDefault();
+        });
+
+        // Deshabilitar la selección de texto (aunque ya está en CSS, esto es un refuerzo)
+        document.addEventListener('selectstart', function(e) {
+            e.preventDefault();
+        });
+
+        // Deshabilitar atajos de teclado comunes para copiar (Ctrl+C, Cmd+C)
+        document.addEventListener('keydown', function(e) {
+            if (e.ctrlKey && e.key === 'c' || e.metaKey && e.key === 'c') {
+                e.preventDefault();
+            }
+        });
+    </script>
+</body>
+</html>
